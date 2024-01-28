@@ -386,5 +386,88 @@ button{
 .about-section .get-service .button:hover{
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
-
 }
+/**====== services section =====*/
+.services{
+    padding: calc(var(--pixel) * 60) 0;
+}
+.services .title-section{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto calc(var(--pixel) * 50);
+}
+.services .title{
+    font-size: calc(var(--pixel) * 40);
+    line-height: calc(var(--pixel) * 50);
+    margin-bottom: calc(var(--pixel) * 20);
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+.services .description{
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+    color: var(--gray);
+    font-weight: 400;
+}
+.services .items{
+    flex-wrap: wrap;
+}
+.services .item{
+    text-align: center;
+    box-shadow: 0 calc(var(--pixel) * 3) calc(var(--pixel) * 100) rgb(0 0 0 / 10%);
+    margin-bottom: calc(var(--pixel) * 30);
+    padding: calc(var(--pixel) * 60) calc(var(--pixel) * 30);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    background-color: #fff;
+    width: calc(var(--pixel) * 400);
+    height: calc(var(--pixel) * 490);
+    background-image: url(/images/service-item-bg.webp);
+    background-size: cover;
+}
+.services .item .icon{
+    height: calc(var(--pixel) * 80);
+    width: calc(var(--pixel) * 80);
+    line-height: calc(var(--pixel) * 80);
+    font-size: calc(var(--pixel) * 80);
+    color: var(--primary);
+    display: inline-block;
+    margin-bottom: calc(var(--pixel) * 30);
+}
+.services .item .title-item{
+    font-family: "Oswald";
+    font-weight: 700;
+    margin-bottom: calc(var(--pixel) * 15);
+    line-height: 1.5;
+    font-size:calc(var(--pixel) * 28);
+    color: var(--secondary);
+}
+.services .item .desciption-item{
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+    color: var(--gray);
+    font-weight: 400;
+    margin-bottom: calc(var(--pixel) * 16);
+}
+.services .item a{
+    display: block;
+    height: calc(var(--pixel) * 60);
+    width: calc(var(--pixel) * 60);
+    line-height: calc(var(--pixel) * 60);
+    font-size: calc(var(--pixel) * 25);
+    border-radius: calc(var(--pixel) * 5);
+    background: #fff;
+    color: var(--primary);
+    box-shadow: 0 3px 15px rgb(0 0 0 / 10%);
+    margin: calc(var(--pixel) * 30) auto 0;
+    transition: var(--transition);
+}
+.services .item a:hover{
+    background: var(--primary);
+    color: #fff;
+}
+
+

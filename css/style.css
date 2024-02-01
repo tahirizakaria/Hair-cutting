@@ -469,5 +469,105 @@ button{
     background: var(--primary);
     color: #fff;
 }
-
-
+/**====== pricing section =====*/
+.pricing {
+    background: url(/images/precing-bg.webp);
+    background-position: center;
+    background-size: cover;
+    padding: calc(var(--pixel) * 60) 0;
+}
+.pricing .content > .title{
+    text-align: center;
+    color: #fff;
+    width: 40%;
+    margin: 0 auto calc(var(--pixel) * 40);
+}
+.pricing .content .title .h3{
+    font-size: calc(var(--pixel) * 40);
+    line-height: calc(var(--pixel) * 50);
+    margin-bottom: calc(var(--pixel) * 20);
+    text-transform: uppercase;
+}
+.pricing .content .title .description{
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+}
+.pricing .tabs{
+    background-color: #fff;
+    padding: calc(var(--pixel) * 40);
+}
+.pricing .tabs .tabs-list .tab{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: #e8e8e8;
+    width: 16.325%;
+    height: calc(var(--pixel) * 140);
+    padding: calc(var(--pixel) * 20);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.pricing .tabs .tabs-list .tab:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.pricing .tabs .tabs-list .tab:hover .icon{
+    height: 60px;
+    width: 60px;
+    opacity: 0.1;
+}
+.pricing .tabs .tabs-list .tab:hover .title{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+}
+.pricing .tabs .tabs-list .tab .icon{
+    width: calc(var(--pixel) * 50);
+    height: calc(var(--pixel) * 50);
+    margin-bottom: calc(var(--pixel) * 15);
+}
+.pricing .tabs .tabs-list .tab .title{
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: calc(var(--pixel) * 18);
+    text-transform: uppercase;
+    line-height: calc(var(--pixel) * 26);
+}
+.pricing .tabs .tab-price{
+    margin: calc(var(--pixel) * 30) 0;
+    background-color: #FBF6EE;
+    background-image: url(/images/pricing-tab-bg.webp);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: calc(var(--pixel) * 50) calc(var(--pixel) * 30);
+    margin-bottom: calc(var(--pixel) * 30);
+    position: relative;
+    border-radius: calc(var(--pixel) * 5);
+    width: 48%;
+}
+.pricing .tabs .tab-price .img{
+    width: calc(var(--pixel) * 90);
+    height: calc(var(--pixel) * 90);
+}
+.pricing .tabs .tab-price .price-txt{
+    font-size: calc(var(--pixel) * 20);
+    font-weight: 600;
+    line-height: calc(var(--pixel) * 30);
+    margin-bottom: calc(var(--pixel) * 5);
+}
+.pricing .tabs .tab-price .desc{
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+}
+.pricing .tabs .tab-price .price{
+    font-size: calc(var(--pixel) * 30);
+    color: var(--primary);
+}

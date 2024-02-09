@@ -7,3 +7,8 @@ $('.slider-banner').slick({
     dots : false,
     arrows : false 
 });
+// tabs home page pricing section
+$("#tabs" ).tabs({
+    show:300,
+    hide: 300
+    });

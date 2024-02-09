@@ -512,6 +512,13 @@ button{
     cursor: pointer;
     transition: var(--transition);
 }
+.pricing .tabs .tabs-list .tab a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .pricing .tabs .tabs-list .tab:hover{
     background-color: var(--primary);
     border-color: var(--primary);
@@ -537,6 +544,9 @@ button{
     font-size: calc(var(--pixel) * 18);
     text-transform: uppercase;
     line-height: calc(var(--pixel) * 26);
+}
+.pricing .tabs .tabs-content{
+    flex-wrap: wrap;
 }
 .pricing .tabs .tab-price{
     margin: calc(var(--pixel) * 30) 0;

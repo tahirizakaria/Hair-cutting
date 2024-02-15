@@ -581,3 +581,91 @@ button{
     font-size: calc(var(--pixel) * 30);
     color: var(--primary);
 }
+/**====== Gallery section =====*/
+.gallery{
+    padding: calc(var(--pixel) * 60) 0;
+    background-color: #FBF6EE;
+}
+.gallery .content .title{
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: calc(var(--pixel) * 40);
+    line-height: calc(var(--pixel) * 50);
+    margin-bottom: calc(var(--pixel) * 20);
+    text-transform: uppercase;
+    color: var(--secondary);
+}
+.gallery .content .text{
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.gallery .content .text .paragraph{
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+    color: var(--gray);
+    font-weight: 400;
+    margin-bottom: calc(var(--pixel) * 16);
+}
+.gallery .content .text .btn{
+    padding: calc(var(--pixel) * 20) calc(var(--pixel) * 35);
+    font-family: 'Oswald',sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    font-size: calc(var(--pixel) * 15);
+    letter-spacing: .5px;
+    border-radius: calc(var(--pixel) * 5);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: var(--primary);
+    transition: var(--transition);
+    cursor: pointer;
+}
+.gallery .content .text .btn:hover{
+    background-color: var(--secondary);
+}
+.gallery .content .text i{
+    margin-left: calc(var(--pixel) * 5);
+}
+.gallery .images {
+    padding: calc(var(--pixel) * 30) 0;
+}
+.gallery .images .img{
+    height: calc(var(--pixel) * 400);
+    flex-wrap: wrap;
+    transition: var(--transition);
+}
+.gallery .images .img:hover{
+    scale: 1.06;
+}
+/**====== reviews section =====*/
+.reviews{
+    padding: calc(var(--pixel) * 60) 0;
+}
+.reviews .title{
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: calc(var(--pixel) * 40);
+    line-height: calc(var(--pixel) * 50);
+    margin-bottom:calc(var(--pixel) * 20) ;
+    text-transform: uppercase;
+    color: var(--secondary);
+    text-align: center;
+    margin: auto;
+    margin-bottom: calc(var(--pixel) * 30);
+}
+.reviews .paragraph{
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+    color: var(--gray);
+    font-weight: 400;
+    margin-bottom: calc(var(--pixel) * 16);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}

@@ -645,6 +645,9 @@ button{
 .reviews{
     padding: calc(var(--pixel) * 60) 0;
 }
+.reviews .content{
+    position: relative;
+}
 .reviews .title{
     font-family: "Oswald";
     font-weight: 700;
@@ -668,4 +671,51 @@ button{
     width: 50%;
     text-align: center;
     margin: auto;
+}
+.reviews .all-card{
+    padding: calc(var(--pixel) * 92)  0 calc(var(--pixel) * 200) ;
+}
+.reviews .content .card{
+    background-color: #FBF6EE;
+    margin: 0 calc(var(--pixel) * 50) 0 0;
+    border-radius: calc(var(--pixel) * 100) calc(var(--pixel) * 50);
+    text-align: center;
+    width: calc(var(--pixel) * 615);
+}
+.reviews .content .card .img{
+    margin-bottom: calc(var(--pixel) * 20);
+}
+.reviews .content .card .star{
+    margin: auto;
+}
+.reviews .content .card .img .logo{
+    display: block;
+    margin: auto;
+}
+.reviews .content .card .card-content{
+    padding: calc(var(--pixel) * 15) 0;
+}
+.reviews .content .card .text{
+    position: relative;
+    padding: calc(var(--pixel) * 10);
+    width: calc(var(--pixel) * 383);
+    margin: auto;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(var(--pixel) * 16);
+    line-height: calc(var(--pixel) * 29);
+    text-align: center;
+    font-size: calc(var(--pixel) * 16);
+    color: var(--gray);
+    margin-bottom: calc(var(--pixel) * 10);
+}
+.reviews .content .card .text .big-p{
+    margin-bottom: calc(var(--pixel) * 20);
+}
+.reviews .content .card .text .small-p{
+    color: var(--secondary);
+    font-weight: 700;
+    font-size: calc(var(--pixel) * 16);
+    line-height: calc(var(--pixel) * 29);
 }

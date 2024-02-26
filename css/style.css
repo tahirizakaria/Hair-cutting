@@ -673,7 +673,7 @@ button{
     margin: auto;
 }
 .reviews .all-card{
-    padding: calc(var(--pixel) * 92)  0 calc(var(--pixel) * 200) ;
+    padding: calc(var(--pixel) * 92)  0 calc(var(--pixel) * 60) ;
 }
 .reviews .content .card{
     background-color: #FBF6EE;
@@ -718,4 +718,39 @@ button{
     font-weight: 700;
     font-size: calc(var(--pixel) * 16);
     line-height: calc(var(--pixel) * 29);
+}
+/**====== sponsors section =====*/
+.sponsors{
+    padding: calc(var(--pixel) * 60) 0;
+    background-image: url(/images/pricing-tab-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sponsors .content{
+    padding: calc(var(--pixel) * 60);
+    text-align: center;
+}
+.sponsors .content .title{
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: calc(var(--pixel) * 40);
+    line-height: calc(var(--pixel) * 50);
+    margin-bottom:calc(var(--pixel) * 20) ;
+    text-transform: uppercase;
+    color: var(--secondary);
+    text-align: center;
+    margin: auto;
+    margin-bottom: calc(var(--pixel) * 30);
+}
+.sponsors .content .description{
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+    color: var(--gray);
+    font-weight: 400;
+    margin-bottom: calc(var(--pixel) * 16);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto calc(var(--pixel) * 60);
 }

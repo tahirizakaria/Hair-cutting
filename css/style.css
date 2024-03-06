@@ -754,3 +754,34 @@ button{
     text-align: center;
     margin: 0 auto calc(var(--pixel) * 60);
 }
+/**====== footer=====*/
+.footer{
+    background-color: #252525;
+    color: #fff;
+    padding: calc(var(--pixel) * 60) 0;
+}
+.footer .col > div{
+    width: 30%;
+}
+.footer .col .title{
+    font-family: "oswald";
+    font-weight: 700;
+    font-size: calc(var(--pixel) * 22);
+    margin-bottom: calc(var(--pixel) * 40);
+    letter-spacing: calc(var(--pixel) * .5);
+}
+.footer .col .p{
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: calc(var(--pixel) * 16);
+    line-height: calc(var(--pixel) * 30);
+    color: #cbcbcb;
+    margin-bottom: calc(var(--pixel) * 20);
+}
+.footer .col .title-tree{
+    font-family: "Rubik";
+    font-weight: 600;
+    font-size: calc(var(--pixel) * 18);
+    letter-spacing: calc(var(--pixel) * .5);
+    margin-bottom: calc(var(--pixel) * 20);
+}

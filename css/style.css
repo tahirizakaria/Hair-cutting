@@ -770,13 +770,36 @@ button{
     margin-bottom: calc(var(--pixel) * 40);
     letter-spacing: calc(var(--pixel) * .5);
 }
+.footer .col .about .p{
+    margin-bottom: calc(var(--pixel) * 30);
+}
+.footer .col .about .social-media i{
+    width: calc(var(--pixel) * 40);
+    height: calc(var(--pixel) * 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: calc(var(--pixel) * 8) calc(var(--pixel) * 11);
+    transition: var(--transition);
+}
+.footer .col .about .social-media a:hover i{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.footer .col .contact .details i{
+    color: var(--primary);
+}
+.footer .col .contact .detail{
+    margin-bottom: calc(var(--pixel) * 25);
+}
 .footer .col .p{
     font-family: "Rubik";
     font-weight: normal;
     font-size: calc(var(--pixel) * 16);
     line-height: calc(var(--pixel) * 30);
     color: #cbcbcb;
-    margin-bottom: calc(var(--pixel) * 20);
 }
 .footer .col .title-tree{
     font-family: "Rubik";
@@ -784,4 +807,15 @@ button{
     font-size: calc(var(--pixel) * 18);
     letter-spacing: calc(var(--pixel) * .5);
     margin-bottom: calc(var(--pixel) * 20);
+}
+.footer .col .gallery-footer .photos{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer .col .gallery-footer .img{
+    background-image: url(/images/portfolio-1.webp);
+    width: calc(var(--pixel) * 120);
+    height: calc(var(--pixel) * 100);
+    background-position: center;
+    background-size: cover;
 }

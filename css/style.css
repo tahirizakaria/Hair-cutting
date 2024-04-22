@@ -819,3 +819,47 @@ button{
     background-position: center;
     background-size: cover;
 }
+    /**====== about-page=====*/
+.page-about .about{
+    padding: calc(var(--pixel) * 60) 0; ;
+}
+.page-about .banner-section .banner{    
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: calc(var(--pixel) * 500);
+    background-position: center;
+}
+.page-about .banner-section .banner {
+    text-transform: capitalize;
+}
+.page-about .banner-section .banner .title{    
+    color: #fff;
+    font-size: calc(var(--pixel) * 75);
+    line-height: calc(var(--pixel) * 85);
+    margin-bottom: 0;
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: transparent;
+}
+.page-about .banner-section .banner .second-title{
+    font-weight: 400;
+    font-size: calc(var(--pixel) * 20);
+    line-height: calc(var(--pixel) * 28);
+
+}
+.page-about .banner-section .banner .first{
+    color: #fff;
+    transition: var(--transition);
+}
+.page-about .banner-section .banner .first:hover{
+    color: var(--primary);
+}
+.page-about .banner-section .banner .seconde{    
+    color: var(--primary);
+}
+.page-about .banner-section .banner .second-title span{ 
+    color: #fff;
+    font-size:calc(var(--pixel) * 25);
+    margin: 0 calc(var(--pixel) * 20);
+    border-radius: 50%;
+}

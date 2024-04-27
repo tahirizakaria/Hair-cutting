@@ -970,3 +970,60 @@ button{
     width: 100%;
     height: calc(var(--pixel) * 520);
 }
+/*======== page portfolio=============*/
+.portfolio{
+    padding: calc(var(--pixel) * 60) 0;
+}
+.portfolio .text{
+    text-align: center;
+    width: calc(var(--pixel) * 600);
+    margin: 0 auto calc(var(--pixel) * 25);
+}
+.portfolio .text .title{
+    text-transform: uppercase;
+    font-size: calc(var(--pixel) * 30);
+    line-height: calc(var(--pixel) * 40);
+    font-weight: 600;
+    margin-bottom: calc(var(--pixel) * 25);
+}
+.portfolio .text .p{
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+    color: var(--gray);
+    font-weight: 400;
+}
+.portfolio .images{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(var(--pixel) * 25);
+}
+.portfolio .images .img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(var(--pixel) * 450);
+}
+.portfolio .images .img-1{
+    background-image: url(/images/page-portfolio-5.webp);
+    width: calc(var(--pixel) * 620);
+}
+.portfolio .images .img-2{
+    background-image: url(/images/page-portfolio-3.webp);
+    width: calc(var(--pixel) * 300);
+}
+.portfolio .images .img-3{
+    background-image: url(/images/page-portfolio-7.webp);
+    width: calc(var(--pixel) * 300);
+}
+.portfolio .images .img-5{
+    background-image: url(/images/page-portfolio-3.webp);
+    width: calc(var(--pixel) * 300);
+}
+.portfolio .images .img-4{
+    background-image: url(/images/page-portfolio-5.webp);
+    width: calc(var(--pixel) * 620);
+}
+.portfolio .images .img-6{
+    background-image: url(/images/page-portfolio-7.webp);
+    width: calc(var(--pixel) * 300);
+}

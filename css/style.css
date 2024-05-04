@@ -1027,3 +1027,72 @@ button{
     background-image: url(/images/page-portfolio-7.webp);
     width: calc(var(--pixel) * 300);
 }
+/*======== page contact=============*/
+.contact-page{
+    padding: calc(var(--pixel) * 60) 0;
+}
+.contact-page .text{
+    text-align: center;
+    width: calc(var(--pixel) * 600);
+    margin: 0 auto ;
+}
+.contact-page .text .title{
+    text-transform: uppercase;
+    font-size: calc(var(--pixel) * 30);
+    line-height: calc(var(--pixel) * 40);
+    font-weight: 600;
+    margin-bottom: calc(var(--pixel) * 25);
+}
+.contact-page .text .p{
+    font-size: calc(var(--pixel) * 16);
+    line-height: 1.8;
+    color: var(--gray);
+    font-weight: 400;
+}
+.contact-page .cards{
+    padding: calc(var(--pixel) * 40) 0;
+}
+.contact-page .cards .logo{
+    height: calc(var(--pixel) * 65);
+    width: calc(var(--pixel) * 65);
+    box-shadow: -10px 10px var(--primary);
+    font-size: calc(var(--pixel) * 30);
+    text-align: center;
+    line-height: calc(var(--pixel) * 65);
+    background: #fff;
+    transition: var(--transition);
+}
+.contact-page .cards .logo i{
+    font-size: calc(var(--pixel) * 30);
+    color: var(--primary);
+}
+.contact-page .cards .box{
+    width: calc(var(--pixel) * 396);
+    height: calc(var(--pixel) * 180);
+    padding: calc(var(--pixel) * 45);
+    background-color: #efefef;
+    transition: var(--transition);
+}
+.contact-page .cards .box:hover{
+    color: #fff;
+    background-color: var(--primary);
+}
+.contact-page .cards .box:hover a {
+    color: #fff;
+}
+.contact-page .cards .box:hover .logo {
+    box-shadow: -10px 10px #000;
+}
+.contact-page .cards .box .name{
+    font-size: calc(var(--pixel) * 25);
+    line-height: calc(var(--pixel) * 35);
+    margin-bottom: calc(var(--pixel) * 15);
+    font-weight: 600;
+}
+.contact-page .cards .box .des{
+    color: #252525;
+    font-weight: 500;
+    margin-bottom: calc(var(--pixel) * 10);
+    display: inline-block;
+    transition: var(--transition);
+}

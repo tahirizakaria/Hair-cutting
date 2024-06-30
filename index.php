@@ -1,64 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cutting</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<!--Start header-->
-
-<header class="header">
-    <div class="container btm-cnt">
-        <!--
-            top header
-                        -->
-        <div class="top-header d-flex al-center js-between">
-            <div class="top-header-left d-flex al-center gap-30">
-                <div class="call d-flex al-center gap-10">
-                    <i class="fa-solid fa-phone icon"></i>
-                    <div class="name">Call Us:</div>
-                    <a href="#" class="num-date">(212)680070664</a>
-                </div>
-                <div class="time d-flex al-center gap-10">
-                    <i class="fa-regular fa-clock icon"></i>
-                    <div class="name">Opening Hour:</div>
-                    <div class="num-date"><span>Sunday - Friday,</span> 08 am - 09 pm</div>
-                </div>
-            </div>
-            <div class="top-header-right d-flex al-center gap-20">
-                <a href="#"><i class="fa-brands fa-facebook-f icon-media"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram icon-media"></i></a>
-                <a href="#"><i class="fa-brands fa-tiktok icon-media"></i></a>
-            </div>
-        </div>
-        <!--
-            buttom header
-                            -->
-        <div class="btm-header d-flex js-between al-center">
-            <div class="logo">CUTTER</div>
-            <div class="ul d-flex al-center gap-20">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </div>
-            <div class="contact-btn"><a href="#">CONTACT US <i class="fa-solid fa-arrow-right"></i></a></div>
-        </div>
-    </div>
-
-</header>
-
+<?php include_once('header.php'); ?>
 <!--Start banner-->
 <div class="banner-section slider-banner">
     <div class="banner">
@@ -137,12 +77,12 @@
 <!--Start About text-->
 <div class="about-section">
     <div class="top-content d-flex gap-40">
-        <img src="/images/about-section-left.webp" alt="" class="img-left">
+        <img src="images/about-section-left.webp" alt="" class="img-left">
         <div class="text-center d-flex al-center js-center gap-40">
             <h2 class="title">WE’RE BEST BARBERS & HAIR <br> CUTTING SALON</h2>
             <p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo and inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia dolores eos qui ratione.</p>
         </div>
-    <img src="/images/about-section-right.webp" alt="" class="img-right">
+    <img src="images/about-section-right.webp" alt="" class="img-right">
     </div>
     <div class="get-service">
         <div class="container">
@@ -216,31 +156,31 @@
                 <ul class="tabs-list d-flex js-between al-center">
                     <li class="tab">
                         <a href="#tab-1">
-                            <img src="/images/icons/hair-solution.svg" alt="" class="icon">
+                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
                             <div class="title">hair solutions</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-2">
-                            <img src="/images/icons/hair-solution.svg" alt="" class="icon">
+                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
                             <div class="title">hair solutions</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-3">
-                            <img src="/images/icons/hair-solution.svg" alt="" class="icon">
+                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
                             <div class="title">hair solutions</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-4">
-                            <img src="/images/icons/hair-solution.svg" alt="" class="icon">
+                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
                             <div class="title">hair solutions</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-5">
-                            <img src="/images/icons/hair-solution.svg" alt="" class="icon">
+                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
                             <div class="title">hair solutions</div>
                         </a>
                     </li>
@@ -249,7 +189,7 @@
                 <ul id="tab-1" class="tabs-content d-flex al-center js-between gap-10">
                     <li  class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="/images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-1.webp" alt="" class="img">
                             <div class="text">
                                 <h6 class="price-txt">Hair Cutting & Fitting</h6>
                                 <div class="desc">Clean & simple 30-40 minutes</div>
@@ -259,7 +199,7 @@
                     </li>
                     <li class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="/images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-1.webp" alt="" class="img">
                             <div class="text">
                                 <h6 class="price-txt">Hair Cutting & Fitting</h6>
                                 <div class="desc">Clean & simple 30-40 minutes</div>
@@ -271,7 +211,7 @@
                 <ul id="tab-2" class="tabs-content d-flex al-center js-between gap-10">
                     <li  class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="/images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-1.webp" alt="" class="img">
                             <div class="text">
                                 <h6 class="price-txt">Hair Cutting & Fitting</h6>
                                 <div class="desc">Clean & simple 30-40 minutes</div>
@@ -281,7 +221,7 @@
                     </li>
                     <li class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="/images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-1.webp" alt="" class="img">
                             <div class="text">
                                 <h6 class="price-txt">Hair Cutting & Fitting</h6>
                                 <div class="desc">Clean & simple 30-40 minutes</div>
@@ -293,7 +233,7 @@
                 <ul id="tab-3" class="tabs-content d-flex al-center js-between gap-10">
                     <li  class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="/images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-1.webp" alt="" class="img">
                             <div class="text">
                                 <h6 class="price-txt">Hair Cutting & Fitting</h6>
                                 <div class="desc">Clean & simple 30-40 minutes</div>
@@ -303,7 +243,7 @@
                     </li>
                     <li class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="/images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-1.webp" alt="" class="img">
                             <div class="text">
                                 <h6 class="price-txt">Hair Cutting & Fitting</h6>
                                 <div class="desc">Clean & simple 30-40 minutes</div>
@@ -327,10 +267,10 @@
                 <a href="#" class="btn">EXPLORE MORE <i class="fa-solid fa-arrow-right-long arrow"></i></a>
             </div>
             <div class="images d-flex js-between ">
-                <img src="/images/portfolio-1.webp" alt="" class="img">
-                <img src="/images/portfolio-2.webp" alt="" class="img">
-                <img src="/images/portfolio-3.webp" alt="" class="img">
-                <img src="/images/portfolio-4.webp" alt="" class="img">
+                <img src="images/portfolio-1.webp" alt="" class="img">
+                <img src="images/portfolio-2.webp" alt="" class="img">
+                <img src="images/portfolio-3.webp" alt="" class="img">
+                <img src="images/portfolio-4.webp" alt="" class="img">
             </div>
         </div>
     </div>
@@ -348,8 +288,8 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="img">
-                                <img class="logo" src="/images/Mask group.svg" alt="">
-                                <img class="star" src="/images/Stars.svg" alt="">
+                                <img class="logo" src="images/Mask group.svg" alt="">
+                                <img class="star" src="images/Stars.svg" alt="">
                             </div>
                             <div class="text">
                                 <div class="big-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fugit odio, eveniet illo, quo quis suscipit ut aliquam, magnam esse harum possimus! Sequi ipsa iusto exercitationem quia ex cumque ut!</div>
@@ -362,8 +302,8 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="img">
-                                <img class="logo" src="/images/Mask group.svg" alt="">
-                                <img class="star" src="/images/Stars.svg" alt="">
+                                <img class="logo" src="images/Mask group.svg" alt="">
+                                <img class="star" src="images/Stars.svg" alt="">
                             </div>
                             <div class="text">
                                 <div class="big-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fugit odio, eveniet illo, quo quis suscipit ut aliquam, magnam esse harum possimus! Sequi ipsa iusto exercitationem quia ex cumque ut!</div>
@@ -378,8 +318,8 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="img">
-                                <img class="logo" src="/images/Mask group.svg" alt="">
-                                <img class="star" src="/images/Stars.svg" alt="">
+                                <img class="logo" src="images/Mask group.svg" alt="">
+                                <img class="star" src="images/Stars.svg" alt="">
                             </div>
                             <div class="text">
                                 <div class="big-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fugit odio, eveniet illo, quo quis suscipit ut aliquam, magnam esse harum possimus! Sequi ipsa iusto exercitationem quia ex cumque ut!</div>
@@ -394,8 +334,8 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="img">
-                                <img class="logo" src="/images/Mask group.svg" alt="">
-                                <img class="star" src="/images/Stars.svg" alt="">
+                                <img class="logo" src="images/Mask group.svg" alt="">
+                                <img class="star" src="images/Stars.svg" alt="">
                             </div>
                             <div class="text">
                                 <div class="big-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fugit odio, eveniet illo, quo quis suscipit ut aliquam, magnam esse harum possimus! Sequi ipsa iusto exercitationem quia ex cumque ut!</div>
@@ -417,72 +357,15 @@
             <div class="title">PREMIUM SPONSORS</div>
             <div class="description">Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse</div>
             <div class="logos d-flex al-center js-between">
-                <img src="/images/brand-1.webp" alt="" class="img">
-                <img src="/images/brand-1.webp" alt="" class="img">
-                <img src="/images/brand-1.webp" alt="" class="img">
-                <img src="/images/brand-1.webp" alt="" class="img">
-                <img src="/images/brand-1.webp" alt="" class="img">
-                <img src="/images/brand-1.webp" alt="" class="img">
+                <img src="images/brand-1.webp" alt="" class="img">
+                <img src="images/brand-1.webp" alt="" class="img">
+                <img src="images/brand-1.webp" alt="" class="img">
+                <img src="images/brand-1.webp" alt="" class="img">
+                <img src="images/brand-1.webp" alt="" class="img">
+                <img src="images/brand-1.webp" alt="" class="img">
         </div>
         </div>
     </div>
 </div>
 <!--end sponsors section-->
-<!--start footer section-->
-<footer class="footer">
-    <div class="container">
-        <div class="content">
-            <div class="col d-flex js-between ">
-                <div class="about">
-                    <h4 class="title">About Us</h4>
-                    <p class="p">It is a long established fact that an reader will been distracted by there readable and content.</p>
-                    <h5 class="title-tree">Find Us On:</h5>
-                    <div class="social-media d-flex gap-20">
-                        <a href="#"><i class="fa-brands fa-facebook-f icon-media"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram icon-media"></i></a>
-                        <a href="#"><i class="fa-brands fa-tiktok icon-media"></i></a>
-                    </div>
-                </div>
-                <div class="contact">
-                    <h4 class="title">Contact Info</h4>
-                    <div class="details">
-                        <div class="location detail d-flex gap-20">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p class="p">Obere Haltenstrasse, Lugaggia. Switzerland - 6953</p>
-                        </div>
-                        <div class="time detail d-flex gap-20">
-                            <i class="fa-regular fa-clock icon"></i>
-                            <p class="p">Sun - Friday, 08 am - 09 pm</p>
-                        </div>
-                        <div class="phone detail d-flex gap-20">
-                            <i class="fa-regular fa-clock icon"></i>
-                            <a href="#" class="p">+410 123 456 789</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-footer">
-                    <h4 class="title">Photo Gallery</h4>
-                    <div class="photos d-flex al-center gap-10">
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!--end footer section-->
-
-
-
-<script src="js/jquery-3.6.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" ></script>
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="js/main.js"></script>
-</body>
-</html>
+<?php include_once('footer.php'); ?>

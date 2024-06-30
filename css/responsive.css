@@ -1,0 +1,66 @@
+@media (max-width : 480px){
+    :root{
+        --pixel : 0.24132vw;
+    }
+    .container{
+        width: 100%;
+        padding-left: calc(var(--pixel) * 15);
+        padding-right: calc(var(--pixel) * 15);
+    }
+    /* index page
+            header
+                    */
+    .top-header{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: calc(var(--pixel) * 15);
+    }
+    .top-header-left{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .ul,
+    .btm-header .contact-btn{
+        display: none;
+    }
+    .btm-header .bars-menu{
+        display: block;
+    }
+
+    .banner .content{
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        gap: calc(var(--pixel) * 40);
+    }
+    .banner .content .text{
+        width: 100%;
+    }
+    .what-do {
+        background: none;
+    }
+    .what-do .content{
+        flex-direction: column-reverse;
+        top: 0;
+        padding: calc(var(--pixel) * 40) 0;
+        background-position: top;
+    }
+    .what-do .content .text-content{
+        margin-left: calc(var(--pixel) * 15);
+    } 
+    .what-do .items .item{
+        width: 100%;
+    }
+    .what-do .content .img{
+        width: 100%;
+    }
+    .about-section .top-content{
+        flex-direction: column;
+        padding: calc(var(--pixel) * 15);
+    }
+    .about-section .top-content .img-left,
+    .about-section .top-content .img-right{
+        width: 100%;
+    }
+
+}

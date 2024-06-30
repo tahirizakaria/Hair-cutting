@@ -156,6 +156,9 @@ button{
 .btm-header .contact-btn:hover{
     background-color: var(--secondary);
 }
+.btm-header .bars-menu{
+    display: none;
+}
 /**====== Start banner =====*/
 .banner-section{
     position: relative;
@@ -163,7 +166,7 @@ button{
 .banner{
     display: grid;
     align-items: center;
-    background-image: url(/images/h1-slide-1.webp);
+    background-image: url(http://localhost/Hair-cutting/images/h1-slide-1.webp);
     background-size: cover;
     width: 100%;
 }
@@ -254,13 +257,13 @@ button{
 /**====== What we do section =====*/
 .what-do{
     position: relative;
-    background-image: url(/images/wwd-right-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/wwd-right-bg.webp);
     background-position: right;
     background-repeat: no-repeat;
 }
 .what-do .content{ 
     position: relative;
-    background-image: url(/images/wwd-right-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/wwd-right-bg.webp);
     background-repeat: no-repeat;
     background-position: right;
     top: -50px;
@@ -323,7 +326,7 @@ button{
     width: 98%;
     margin: auto;
     padding: calc(var(--pixel) * 60) 0 0;
-    background-image: url(/images/about-text-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/about-text-bg.webp);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -356,7 +359,7 @@ button{
 .about-section .get-service{
     background-color: var(--primary);
     color: #fff;
-    background-image: url(/images/cta-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/cta-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -423,7 +426,7 @@ button{
     background-color: #fff;
     width: calc(var(--pixel) * 400);
     height: calc(var(--pixel) * 490);
-    background-image: url(/images/service-item-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/service-item-bg.webp);
     background-size: cover;
 }
 .services .item .icon{
@@ -471,7 +474,7 @@ button{
 }
 /**====== pricing section =====*/
 .pricing {
-    background: url(/images/precing-bg.webp);
+    background: url(http://localhost/Hair-cutting/images/precing-bg.webp);
     background-position: center;
     background-size: cover;
     padding: calc(var(--pixel) * 60) 0;
@@ -551,7 +554,7 @@ button{
 .pricing .tabs .tab-price{
     margin: calc(var(--pixel) * 30) 0;
     background-color: #FBF6EE;
-    background-image: url(/images/pricing-tab-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/pricing-tab-bg.webp);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -722,7 +725,7 @@ button{
 /**====== sponsors section =====*/
 .sponsors{
     padding: calc(var(--pixel) * 60) 0;
-    background-image: url(/images/pricing-tab-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/pricing-tab-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -770,10 +773,10 @@ button{
     margin-bottom: calc(var(--pixel) * 40);
     letter-spacing: calc(var(--pixel) * .5);
 }
-.footer .col .about .p{
+.footer .col .about_us .p{
     margin-bottom: calc(var(--pixel) * 30);
 }
-.footer .col .about .social-media i{
+.footer .col .about_us .social-media i{
     width: calc(var(--pixel) * 40);
     height: calc(var(--pixel) * 40);
     display: flex;
@@ -784,7 +787,7 @@ button{
     padding: calc(var(--pixel) * 8) calc(var(--pixel) * 11);
     transition: var(--transition);
 }
-.footer .col .about .social-media a:hover i{
+.footer .col .about_us .social-media a:hover i{
     background-color: var(--primary);
     border-color: var(--primary);
 }
@@ -813,7 +816,7 @@ button{
     justify-content: space-between;
 }
 .footer .col .gallery-footer .img{
-    background-image: url(/images/portfolio-1.webp);
+    background-image: url(http://localhost/Hair-cutting/images/portfolio-1.webp);
     width: calc(var(--pixel) * 120);
     height: calc(var(--pixel) * 100);
     background-position: center;
@@ -917,7 +920,7 @@ button{
     width: calc(var(--pixel) * 480);
     height: calc(var(--pixel) * 520);
     padding: calc(var(--pixel) * 60);
-    background-image: url(/images/working-hour-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/working-hour-bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -964,7 +967,7 @@ button{
     font-weight: 400;
 }
 .working-hours .content .video{
-    background-image: url(/images/video-bg.webp);
+    background-image: url(http://localhost/Hair-cutting/images/video-bg.webp);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -1004,27 +1007,27 @@ button{
     height: calc(var(--pixel) * 450);
 }
 .portfolio .images .img-1{
-    background-image: url(/images/page-portfolio-5.webp);
+    background-image: url(http://localhost/Hair-cutting/images/page-portfolio-5.webp);
     width: calc(var(--pixel) * 620);
 }
 .portfolio .images .img-2{
-    background-image: url(/images/page-portfolio-3.webp);
+    background-image: url(http://localhost/Hair-cutting/images/page-portfolio-3.webp);
     width: calc(var(--pixel) * 300);
 }
 .portfolio .images .img-3{
-    background-image: url(/images/page-portfolio-7.webp);
+    background-image: url(http://localhost/Hair-cutting/images/page-portfolio-7.webp);
     width: calc(var(--pixel) * 300);
 }
 .portfolio .images .img-5{
-    background-image: url(/images/page-portfolio-3.webp);
+    background-image: url(http://localhost/Hair-cutting/images/page-portfolio-3.webp);
     width: calc(var(--pixel) * 300);
 }
 .portfolio .images .img-4{
-    background-image: url(/images/page-portfolio-5.webp);
+    background-image: url(http://localhost/Hair-cutting/images/page-portfolio-5.webp);
     width: calc(var(--pixel) * 620);
 }
 .portfolio .images .img-6{
-    background-image: url(/images/page-portfolio-7.webp);
+    background-image: url(http://localhost/Hair-cutting/images/page-portfolio-7.webp);
     width: calc(var(--pixel) * 300);
 }
 /*======== page contact=============*/
@@ -1114,7 +1117,7 @@ button{
 .contact-page .contact-form select,
 .contact-page .contact-form textarea{
     width: 100%;
-    border: 0;
+    border: calc(var(--pixel) * 1) solid var(--gray);
     outline: none;
     color: var(--gray);
     background: #fff;

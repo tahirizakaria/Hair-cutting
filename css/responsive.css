@@ -6,6 +6,8 @@
         width: 100%;
         padding-left: calc(var(--pixel) * 15);
         padding-right: calc(var(--pixel) * 15);
+        margin-left: auto;
+        margin-right: auto;
     }
     /* index page
             header
@@ -18,6 +20,14 @@
     .top-header-left{
         flex-direction: column;
         align-items: flex-start;
+        gap: calc(var(--pixel)* 20);
+    }
+    .top-header .top-header-left .time{
+        align-items: center;
+    }
+    .top-header .top-header-left .num-date,
+    .top-header .top-header-left .name{
+        line-height: calc(var(--pixel) * 20);
     }
     .ul,
     .btm-header .contact-btn{
@@ -26,12 +36,25 @@
     .btm-header .bars-menu{
         display: block;
     }
-
+    .btm-header{
+        padding: calc(var(--pixel) * 30) calc(var(--pixel) * 15);
+        left: 0;
+    }
+    .btm-header .bars-menu i{
+        margin-left: calc(var(--pixel) * 10);
+    }
+    .banner-section{
+        text-align: center;
+    }
     .banner .content{
         flex-direction: column;
         justify-content: center;
-        height: 100vh;
+        height: calc(100vh + calc(var(--pixel) * 250));
         gap: calc(var(--pixel) * 40);
+    }
+    .banner .content h2{
+        font-size: calc(var(--pixel) * 60);
+        line-height: calc(var(--pixel) * 90);
     }
     .banner .content .text{
         width: 100%;
@@ -61,6 +84,44 @@
     .about-section .top-content .img-left,
     .about-section .top-content .img-right{
         width: 100%;
+    }
+    .pricing .tabs{
+        flex-direction: column;
+    }
+    .pricing .tabs .tab-price {
+        flex-direction: column;
+        width: 100%;
+        gap: calc(var(--pixel) * 15);
+    }
+    .pricing .tabs .tab-price .left{
+        flex-direction: column;
+    }
+    .pricing .tabs .tabs-list{
+        flex-direction: column;
+        gap: calc(var(--pixel) * 15);
+    }
+    .pricing .tabs .tabs-list .tab{
+        width: 100%;
+    }
+    .gallery .images {
+        flex-direction: column;
+        gap: calc(var(--pixel) * 15);
+    }
+    .reviews .content .card{
+        width: 100%;
+    }
+    .reviews .content .card .text{
+        width: 30%;
+    }
+    .sponsors .content .description{
+        width: 100%;
+    }
+    .sponsors .content .logos{
+        flex-wrap: wrap;
+        gap: calc(var(--pixel) * 30);
+    }
+    .sponsors .content{
+        padding: 0;
     }
 
 }

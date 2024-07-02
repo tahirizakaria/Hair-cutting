@@ -25,3 +25,22 @@ $('.all-card').slick({
     autoplaySpeed: 2000,
     arrows : false,
     });
+
+// menu responsive
+$(document).ready(function(){
+
+    // open and close menu
+    $('.open-menu').click(function(){
+        $('.ul').addClass('open');
+        $('.open-menu').hide();
+        $('.close-menu').show();
+    })
+    $('.close-menu').click(function(){
+        $('.ul').removeClass('open');
+        $('.open-menu').show();
+        $('.close-menu').hide();
+    })
+
+    
+
+});

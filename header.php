@@ -56,8 +56,8 @@
             </div>
             <div class="contact-btn"><a href="contact.php">CONTACT US <i class="fa-solid fa-arrow-right"></i></a></div>
             <div class="bars-menu">
-                <i class="fa-solid fa-bars"></i>
-                <i class="fa-solid fa-xmark"></i>
+                <i class="fa-solid fa-bars open-menu"></i>
+                <i class="fa-solid fa-xmark close-menu"></i>
             </div>
         </div>
     </div>

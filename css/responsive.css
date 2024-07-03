@@ -9,9 +9,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    /* index page
-            header
-                    */
+    /* index page */
     .top-header{
         flex-direction: column;
         align-items: flex-start;
@@ -181,5 +179,26 @@
     }
     .footer .col .gallery-footer .img{
         width: calc(var(--pixel) * 100);
+    }
+    /* about page */
+    .page-about .about{
+        padding: calc(var(--pixel) * 60) 0 0;
+    }
+    .page-about .about .content {
+        flex-direction: column-reverse;
+    }
+    .page-about .about .content .text .logo{
+        display: none;
+    }
+    .page-about .about .content .image img{
+        width: 100%;
+        height: 100%;
+    }
+    .working-hours .content{
+        flex-direction: column;
+    }
+    .working-hours .content .hours{
+        width: 100%;
+        height: 100%;
     }
 }

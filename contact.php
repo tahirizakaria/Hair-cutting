@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="content d-flex js-between al-center">
                     <h1 class="title">Contact</h1>
-                    <h3 class="second-title"><a class="first" href="#">cutting</a> <span>.</span> <a class="seconde" href="#">contact</a></h3>
+                    <h3 class="second-title"><a class="first" href="index.php">cutting</a> <span>.</span> <a class="seconde" href="#">contact</a></h3>
                 </div>
             </div>
         </div>

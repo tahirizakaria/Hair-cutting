@@ -88,7 +88,7 @@
         <div class="container">
             <div class="content-bottom d-flex al-center js-between">
                 <h3 class="text">READY TO GET OUR SERVICE ?</h3>
-                <a href="#" class="button"> CONTACT US</a>
+                <a href="contact.php" class="button"> CONTACT US</a>
             </div>
         </div>
     </div>
@@ -264,7 +264,7 @@
             <div class="title">LATEST PORTFOLIO GALLERY</div>
             <div class="text d-flex js-between">
                 <p class="paragraph">Sit amet consectetur adipiscing elit sed do eiusmod tempor <br> incididunt labore dolore magna aliqua suspendisse</p>
-                <a href="#" class="btn">EXPLORE MORE <i class="fa-solid fa-arrow-right-long arrow"></i></a>
+                <a href="portfolio.php" class="btn">EXPLORE MORE <i class="fa-solid fa-arrow-right-long arrow"></i></a>
             </div>
             <div class="images d-flex js-between ">
                 <img src="images/portfolio-1.webp" alt="" class="img">

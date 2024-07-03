@@ -201,4 +201,32 @@
         width: 100%;
         height: 100%;
     }
+    /* portfolio page */
+    .portfolio .text,
+    .portfolio .images .img{
+        width: 100%;
+    }
+    /* contact page */
+    .contact-page .text{
+        width: 100%;
+    }
+    .contact-page .content .cards{
+        flex-direction: column;
+    }
+    .contact-page .content .cards .box{
+        width: 100%;
+        height: 100%;
+        padding: calc(var(--pixel)* 20);
+    }
+    .contact-page .maps-form{
+        flex-direction: column;
+    }
+    .contact-page .maps-form .maps{
+        width: 100%;
+        height: calc(100vh / 2);
+    }
+    .contact-page .contact-form{
+        width: 100%;
+    }
+
 }

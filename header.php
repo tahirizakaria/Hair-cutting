@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cutting</title>
+    <title>France Spa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
             buttom header
                             -->
         <div class="btm-header d-flex js-between al-center">
-            <div class="logo">CUTTER</div>
+            <div class="logo"><a href="index.php">France Spa</a></div>
             <div class="ul d-flex al-center gap-20">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>

@@ -291,6 +291,7 @@ button{
     color: var(--secondary);
 }
 .what-do .text-content .p{
+    width: 75%;
     font-size: calc(var(--pixel) * 16);
     line-height: 1.8;
     color: var(--gray);
@@ -421,10 +422,14 @@ button{
     flex-wrap: wrap;
 }
 .services .item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
     box-shadow: 0 calc(var(--pixel) * 3) calc(var(--pixel) * 100) rgb(0 0 0 / 10%);
     margin-bottom: calc(var(--pixel) * 30);
-    padding: calc(var(--pixel) * 60) calc(var(--pixel) * 30);
+    padding: calc(var(--pixel) * 40) calc(var(--pixel) * 30);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100%;
@@ -435,18 +440,13 @@ button{
     background-size: cover;
 }
 .services .item .icon{
-    height: calc(var(--pixel) * 80);
-    width: calc(var(--pixel) * 80);
-    line-height: calc(var(--pixel) * 80);
-    font-size: calc(var(--pixel) * 80);
-    color: var(--primary);
+    height: calc(var(--pixel) * 100);
+    width: calc(var(--pixel) * 100);
     display: inline-block;
-    margin-bottom: calc(var(--pixel) * 30);
 }
 .services .item .title-item{
     font-family: "Oswald";
     font-weight: 700;
-    margin-bottom: calc(var(--pixel) * 15);
     line-height: 1.5;
     font-size:calc(var(--pixel) * 28);
     color: var(--secondary);
@@ -458,7 +458,6 @@ button{
     line-height: 1.8;
     color: var(--gray);
     font-weight: 400;
-    margin-bottom: calc(var(--pixel) * 16);
 }
 .services .item a{
     display: block;
@@ -470,7 +469,6 @@ button{
     background: #fff;
     color: var(--primary);
     box-shadow: 0 3px 15px rgb(0 0 0 / 10%);
-    margin: calc(var(--pixel) * 30) auto 0;
     transition: var(--transition);
 }
 .services .item a:hover{
@@ -528,13 +526,14 @@ button{
     flex-direction: column;
 }
 .pricing .tabs .tabs-list .tab:hover{
-    background-color: var(--primary);
-    border-color: var(--primary);
+    background-color: var(--secondary);
+    border-color: var(--secondary);
 }
 .pricing .tabs .tabs-list .tab:hover .icon{
     height: 60px;
     width: 60px;
     opacity: 0.1;
+    filter: grayscale(100%);
 }
 .pricing .tabs .tabs-list .tab:hover .title{
     color: #fff;
@@ -572,6 +571,7 @@ button{
 .pricing .tabs .tab-price .img{
     width: calc(var(--pixel) * 90);
     height: calc(var(--pixel) * 90);
+    border-radius: 50%;
 }
 .pricing .tabs .tab-price .price-txt{
     font-size: calc(var(--pixel) * 20);

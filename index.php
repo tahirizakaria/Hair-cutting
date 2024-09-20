@@ -38,34 +38,34 @@
             <div class="img"></div>
             <div class="text-content">
                 <h1 class="title">WHAT WE DO?</h1>
-                <p class="p">Sit amet consectetur adipiscing elit sed do eiusmod tempor <br> incididunt labore dolore magna aliqua suspendisse</p>
+                <p class="p">We provide expert hair cutting and rejuvenating spa services that enhance your style and promote relaxation for a complete grooming experience</p>
                 <div class="items d-flex js-between al-center">
                     <div class="item d-flex js-between al-center gap-20">
-                        <img src="http://localhost/hair-cutting/images/wwd-spa.png" alt="" class="icon">
+                        <img src="http://localhost/hair-cutting/images/wwd-cut.png" alt="" class="icon">
                         <div class="text">
                             <h2 class="title">Hair Cutting</h2>
-                            <p class="description">Quis autem vel eumu reres ender quiea voluptate</p>
+                            <p class="description">A professional haircut tailored to your style for an elegant and refreshing look.</p>
                         </div>
                     </div>
                     <div class="item d-flex js-between al-center gap-20">
-                    <img src="http://localhost/hair-cutting/images/wwd-cut.png" alt="" class="icon">
+                        <img src="http://localhost/hair-cutting/images/wwd-spa.png" alt="" class="icon">
                         <div class="text">
-                            <h2 class="title">Hair Cutting</h2>
-                            <p class="description">Quis autem vel eumu reres ender quiea voluptate</p>
+                            <h2 class="title">Spa & GYM</h2>
+                            <p class="description">Professional spa services designed to enhance your wellness and relaxation.</p>
                         </div>
                     </div>
                     <div class="item d-flex js-between al-center gap-20">
                     <img src="http://localhost/hair-cutting/images/wwd-style.png" alt="" class="icon">
                         <div class="text">
-                            <h2 class="title">Hair Cutting</h2>
-                            <p class="description">Quis autem vel eumu reres ender quiea voluptate</p>
+                            <h2 class="title">Shaving Style</h2>
+                            <p class="description">Expert shaving services crafted for a clean, refined appearance.</p>
                         </div>
                     </div>
                     <div class="item d-flex js-between al-center gap-20">
                     <img src="http://localhost/hair-cutting/images/wwd-body.png" alt="" class="icon">
                         <div class="text">
-                            <h2 class="title">Hair Cutting</h2>
-                            <p class="description">Quis autem vel eumu reres ender quiea voluptate</p>
+                            <h2 class="title">Body Treatments</h2>
+                            <p class="description">Luxurious body treatments designed to enhance your skin's appearance and radiance.</p>
                         </div>
                     </div>
                 </div>
@@ -77,12 +77,12 @@
 <!--Start About text-->
 <div class="about-section">
     <div class="top-content d-flex gap-40">
-        <img src="images/about-section-left.webp" alt="" class="img-left">
+        <img src="http://localhost/hair-cutting/images/bout-section-left.jpg" alt="" class="img-left">
         <div class="text-center d-flex al-center js-center gap-40">
             <h2 class="title">WE’RE BEST BARBERS & HAIR <br> CUTTING SALON</h2>
-            <p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo and inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia dolores eos qui ratione.</p>
+            <p class="paragraph">At our barbershop and hair cutting salon, we pride ourselves on delivering exceptional grooming services tailored to each client's unique style. Our skilled barbers are dedicated to providing precision cuts, classic styles, and modern trends in a welcoming environment. We prioritize customer satisfaction and use high-quality products to ensure a perfect finish every time. Whether you’re looking for a sharp haircut, a refreshing shave, or a complete style overhaul, we have you covered. Experience the difference with our personalized services and attention to detail that sets us apart as the best in the business.</p>
         </div>
-    <img src="images/about-section-right.webp" alt="" class="img-right">
+    <img src="http://localhost/hair-cutting/images/bout-section-right.jpeg" alt="" class="img-right">
     </div>
     <div class="get-service">
         <div class="container">
@@ -100,43 +100,43 @@
         <div class="content">
             <div class="title-section">
                 <h1 class="title">SERVICE WE PROVIDE</h1>
-                <p class="description">Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse</p>
+                <p class="description">Our services include precision haircuts, revitalizing spa treatments, and tailored grooming solutions to help you look and feel your best</p>
             </div>
             <div class="items d-flex js-between al-center gap-30">
                 <div class="item">
-                    <i class="fa-solid fa-scissors icon"></i>
+                    <img src="http://localhost/hair-cutting/images/wwd-cut.png" alt="" class="icon">
                     <h3 class="title-item">Hair Cutting Style</h3>
-                    <p class="desciption-item">Lorem Ipsum is the simply dummy text of the printing and typesetting industry. It has been industry best dummy text ever.</p>
+                    <p class="desciption-item">A professional haircut tailored to your style for an elegant and refreshing look.</p>
                     <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
                 </div>
                 <div class="item">
-                    <i class="fa-solid fa-scissors icon"></i>
-                    <h3 class="title-item">Hair Cutting Style</h3>
-                    <p class="desciption-item">Lorem Ipsum is the simply dummy text of the printing and typesetting industry. It has been industry best dummy text ever.</p>
+                    <img src="http://localhost/hair-cutting/images/hair-washing.png" alt="" class="icon">
+                    <h3 class="title-item">Hair Washing</h3>
+                    <p class="desciption-item">Enjoy a hair wash that cleanses and refreshes your hair. A relaxing experience that leaves your hair soft and radiant.</p>
                     <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
                 </div>
                 <div class="item">
-                    <i class="fa-solid fa-scissors icon"></i>
-                    <h3 class="title-item">Hair Cutting Style</h3>
-                    <p class="desciption-item">Lorem Ipsum is the simply dummy text of the printing and typesetting industry. It has been industry best dummy text ever.</p>
+                    <img src="http://localhost/hair-cutting/images/wwd-spa.png" alt="" class="icon">
+                    <h3 class="title-item">Body Treatments</h3>
+                    <p class="desciption-item">Luxurious body treatments designed to enhance your skin's appearance and radiance.</p>
                     <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
                 </div>
                 <div class="item">
-                    <i class="fa-solid fa-scissors icon"></i>
-                    <h3 class="title-item">Hair Cutting Style</h3>
-                    <p class="desciption-item">Lorem Ipsum is the simply dummy text of the printing and typesetting industry. It has been industry best dummy text ever.</p>
+                    <img src="http://localhost/hair-cutting/images/Beauty.png" alt="" class="icon">
+                    <h3 class="title-item">Beauty & Spa</h3>
+                    <p class="desciption-item">Professional spa services designed to enhance your wellness and relaxation.</p>
                     <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
                 </div>
                 <div class="item">
-                    <i class="fa-solid fa-scissors icon"></i>
-                    <h3 class="title-item">Hair Cutting Style</h3>
-                    <p class="desciption-item">Lorem Ipsum is the simply dummy text of the printing and typesetting industry. It has been industry best dummy text ever.</p>
+                    <img src="http://localhost/hair-cutting/images/wwd-style.png" alt="" class="icon">
+                    <h3 class="title-item">Stylist Shaving</h3>
+                    <p class="desciption-item">Experience expert shaving services designed for a clean and polished look. Our skilled barbers ensure precision and style for every client.</p>
                     <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
                 </div>
                 <div class="item">
-                    <i class="fa-solid fa-scissors icon"></i>
-                    <h3 class="title-item">Hair Cutting Style</h3>
-                    <p class="desciption-item">Lorem Ipsum is the simply dummy text of the printing and typesetting industry. It has been industry best dummy text ever.</p>
+                    <img src="http://localhost/hair-cutting/images/hair-color.png" alt="" class="icon">
+                    <h3 class="title-item">Multi Hair Colors</h3>
+                    <p class="desciption-item">Achieve a new look with our multi hair color services, featuring vibrant shades and professional results that reflect your style.</p>
                     <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
                 </div>
             </div>
@@ -150,38 +150,38 @@
         <div class="content">
             <div class="title">
                 <h3 class="h3">AWESOME PRICING PLAN</h3>
-                <p class="description">Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse</p>
+                <p class="description">Our pricing plans offer exceptional value while upholding quality. Choose from a variety of competitively priced services for a tailored grooming experience.</p>
             </div>
             <div class="tabs" id="tabs">
                 <ul class="tabs-list d-flex js-between al-center">
                     <li class="tab">
                         <a href="#tab-1">
-                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
+                            <img src="http://localhost/hair-cutting/images/wwd-cut.png" alt="" class="icon">
                             <div class="title">hair solutions</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-2">
-                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
-                            <div class="title">hair solutions</div>
+                            <img src="http://localhost/hair-cutting/images/Beauty.png" alt="" class="icon"> 
+                            <div class="title">beauty & spa</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-3">
-                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
-                            <div class="title">hair solutions</div>
+                            <img src="http://localhost/hair-cutting/images/wwd-body.png" alt="" class="icon">
+                            <div class="title">body treatments</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-4">
-                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
-                            <div class="title">hair solutions</div>
+                            <img src="http://localhost/hair-cutting/images/hair-washing.png" alt="" class="icon">
+                            <div class="title">Hair washing</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-5">
-                            <img src="images/icons/hair-solution.svg" alt="" class="icon">
-                            <div class="title">hair solutions</div>
+                            <img src="http://localhost/hair-cutting/images/wwd-style.png" alt="" class="icon">
+                            <div class="title">Shaving</div>
                         </a>
                     </li>
 
@@ -191,21 +191,31 @@
                         <div class="left d-flex al-center gap-20">
                             <img src="images/pricing-1.webp" alt="" class="img">
                             <div class="text">
-                                <h6 class="price-txt">Hair Cutting & Fitting</h6>
-                                <div class="desc">Clean & simple 30-40 minutes</div>
+                                <h6 class="price-txt">Hair Cutting </h6>
+                                <div class="desc">Clean & simple </div>
                             </div>
                         </div>
-                        <h3 class="price">$10</h3>
+                        <h3 class="price">$50</h3>
                     </li>
                     <li class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-5.jpg" alt="" class="img">
                             <div class="text">
-                                <h6 class="price-txt">Hair Cutting & Fitting</h6>
-                                <div class="desc">Clean & simple 30-40 minutes</div>
+                                <h6 class="price-txt">Short hair blowdry</h6>
+                                <div class="desc">Clean & simple </div>
                             </div>
                         </div>
-                        <h3 class="price">$10</h3>
+                        <h3 class="price">$30</h3>
+                    </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-4.jpg" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">Long hair blowdry</h6>
+                                <div class="desc">Clean & simple </div>
+                            </div>
+                        </div>
+                        <h3 class="price">$50</h3>
                     </li>
                 </ul>
                 <ul id="tab-2" class="tabs-content d-flex al-center js-between gap-10">
@@ -250,6 +260,30 @@
                             </div>
                         </div>
                         <h3 class="price">$55</h3>
+                    </li>
+                </ul>
+                <ul id="tab-4" class="tabs-content d-flex al-center js-between gap-10">
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-1.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">Hair washing</h6>
+                                <div class="desc">Clean & simple</div>
+                            </div>
+                        </div>
+                        <h3 class="price">$20</h3>
+                    </li>
+                </ul>
+                <ul id="tab-5" class="tabs-content d-flex al-center js-between gap-10">
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-2.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">beard shave</h6>
+                                <div class="desc">Clean & simple </div>
+                            </div>
+                        </div>
+                        <h3 class="price">$30</h3>
                     </li>
                 </ul>
             </div>

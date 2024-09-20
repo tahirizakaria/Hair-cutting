@@ -5,11 +5,11 @@
         <div class="container">
             <div class="content d-flex js-between al-center">
                 <div class="text">
-                    <h2 class="h1">Barbers & Hair Cutting</h2>
-                    <p>Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua suspendisse ultrices gravida</p>
+                    <h2 class="h1">Barbers & Spa Services</h2>
+                    <p>Professional grooming services, including precision haircuts, styling, and relaxing spa treatments to help you look and feel your best.</p>
                     <div class="btn">Our Services <i class="fa-solid fa-arrow-right"></i></div>
                 </div>
-                <a href="#" class="circle">
+                <a href="http://localhost/hair-cutting/images/banner-video.mp4" class="circle">
                     <i class="fa-solid fa-play"></i>
                 </a>
             </div>
@@ -19,11 +19,11 @@
         <div class="container">
             <div class="content d-flex js-between al-center">
                 <div class="text">
-                    <h2 class="h1">Barbers & Hair Cutting</h2>
-                    <p>Sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua suspendisse ultrices gravida</p>
+                    <h2 class="h1">Barbers & Spa Services</h2>
+                    <p>Experience top-notch grooming with expert barbers, stylish cuts, and rejuvenating spa services for a fresh and polished look.</p>
                     <div class="btn">Our Services <i class="fa-solid fa-arrow-right"></i></div>
                 </div>
-                <a href="#" class="circle">
+                <a href="http://localhost/hair-cutting/images/banner-video.mp4" class="circle">
                     <i class="fa-solid fa-play"></i>
                 </a>
             </div>
@@ -35,34 +35,34 @@
 <div class="what-do">
     <div class="container">
         <div class="content d-flex al-center gap-30">
-            <img src="images/wwd-left-image.webp" alt="" class="img">
+            <div class="img"></div>
             <div class="text-content">
                 <h1 class="title">WHAT WE DO?</h1>
                 <p class="p">Sit amet consectetur adipiscing elit sed do eiusmod tempor <br> incididunt labore dolore magna aliqua suspendisse</p>
                 <div class="items d-flex js-between al-center">
                     <div class="item d-flex js-between al-center gap-20">
-                        <i class="fa-solid fa-scissors"></i>
+                        <img src="http://localhost/hair-cutting/images/wwd-spa.png" alt="" class="icon">
                         <div class="text">
                             <h2 class="title">Hair Cutting</h2>
                             <p class="description">Quis autem vel eumu reres ender quiea voluptate</p>
                         </div>
                     </div>
                     <div class="item d-flex js-between al-center gap-20">
-                        <i class="fa-solid fa-scissors"></i>
+                    <img src="http://localhost/hair-cutting/images/wwd-cut.png" alt="" class="icon">
                         <div class="text">
                             <h2 class="title">Hair Cutting</h2>
                             <p class="description">Quis autem vel eumu reres ender quiea voluptate</p>
                         </div>
                     </div>
                     <div class="item d-flex js-between al-center gap-20">
-                        <i class="fa-solid fa-scissors"></i>
+                    <img src="http://localhost/hair-cutting/images/wwd-style.png" alt="" class="icon">
                         <div class="text">
                             <h2 class="title">Hair Cutting</h2>
                             <p class="description">Quis autem vel eumu reres ender quiea voluptate</p>
                         </div>
                     </div>
                     <div class="item d-flex js-between al-center gap-20">
-                        <i class="fa-solid fa-scissors"></i>
+                    <img src="http://localhost/hair-cutting/images/wwd-body.png" alt="" class="icon">
                         <div class="text">
                             <h2 class="title">Hair Cutting</h2>
                             <p class="description">Quis autem vel eumu reres ender quiea voluptate</p>

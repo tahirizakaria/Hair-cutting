@@ -28,18 +28,17 @@
                 <div class="call d-flex al-center gap-10">
                     <i class="fa-solid fa-phone icon"></i>
                     <div class="name">Call Us:</div>
-                    <a href="#" class="num-date">(212)680070664</a>
+                    <a href="tel:+966508284430" class="num-date">(+966)508284430</a>
                 </div>
                 <div class="time d-flex al-center gap-10">
                     <i class="fa-regular fa-clock icon"></i>
                     <div class="name">Opening Hour:</div>
-                    <div class="num-date"><span>Sunday - Friday,</span> 08 am - 09 pm</div>
+                    <div class="num-date"><span>Saturday - Friday,</span> 10:30 AM - 12 AM </div>
                 </div>
             </div>
             <div class="top-header-right d-flex al-center gap-20">
-                <a href="#"><i class="fa-brands fa-facebook-f icon-media"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram icon-media"></i></a>
-                <a href="#"><i class="fa-brands fa-tiktok icon-media"></i></a>
+                <a href="https://www.instagram.com/francespa.ksa?igsh=dXZwc3Z6eG9ib3M0"><i class="fa-brands fa-instagram icon-media"></i></a>
+                <a href="https://www.tiktok.com/@user6068404605986?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok icon-media"></i></a>
             </div>
         </div>
         <!--

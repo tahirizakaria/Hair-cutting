@@ -274,6 +274,12 @@ button{
 .what-do .content .img{
     width: calc(var(--pixel) * 410);
     height: calc(var(--pixel) * 687);
+    background-image: url(http://localhost/Hair-cutting/images/wwd-left-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.what-do .text-content {
+    width: calc(var(--pixel) * 870);
 }
 .what-do .text-content .title{
     font-family: "Oswald";
@@ -305,10 +311,9 @@ button{
     background-color: #fff;
     width: calc(var(--pixel) * 400);
 }
-.what-do .items .item i{
-    font-size: calc(var(--pixel) * 50);
-    line-height: calc(var(--pixel) * 65);
-    color: var(--primary);
+.what-do .items .item .icon{
+    width: calc(var(--pixel) * 70);
+    height: calc(var(--pixel) * 70);
 }
 .what-do .items .item .text .title{
     font-size: calc(var(--pixel) * 22);

@@ -512,7 +512,7 @@ button{
     flex-direction: column;
     border: 1px solid;
     border-color: #e8e8e8;
-    width: 16.325%;
+    width: 17%;
     height: calc(var(--pixel) * 140);
     padding: calc(var(--pixel) * 20);
     cursor: pointer;
@@ -640,6 +640,8 @@ button{
 }
 .gallery .images {
     padding: calc(var(--pixel) * 30) 0;
+    gap: calc(var(--pixel) * 50);
+    flex-wrap: wrap;
 }
 .gallery .images .img{
     height: calc(var(--pixel) * 400);

@@ -163,7 +163,7 @@
                     <li class="tab">
                         <a href="#tab-2">
                             <img src="http://localhost/hair-cutting/images/Beauty.png" alt="" class="icon"> 
-                            <div class="title">beauty & spa</div>
+                            <div class="title">beauty & dye</div>
                         </a>
                     </li>
                     <li class="tab">
@@ -175,13 +175,13 @@
                     <li class="tab">
                         <a href="#tab-4">
                             <img src="http://localhost/hair-cutting/images/hair-washing.png" alt="" class="icon">
-                            <div class="title">Hair washing</div>
+                            <div class="title">cleaning & washing</div>
                         </a>
                     </li>
                     <li class="tab">
                         <a href="#tab-5">
-                            <img src="http://localhost/hair-cutting/images/wwd-style.png" alt="" class="icon">
-                            <div class="title">Shaving</div>
+                            <img src="http://localhost/hair-cutting/images/steam.png" alt="" class="icon">
+                            <div class="title">royal bath</div>
                         </a>
                     </li>
 
@@ -217,49 +217,109 @@
                         </div>
                         <h3 class="price">$50</h3>
                     </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-2.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">beard shave</h6>
+                                <div class="desc">Clean & simple </div>
+                            </div>
+                        </div>
+                        <h3 class="price">$30</h3>
+                    </li>
                 </ul>
                 <ul id="tab-2" class="tabs-content d-flex al-center js-between gap-10">
                     <li  class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="images/pricing-1.webp" alt="" class="img">
+                        <img src="images/pricing-3.webp" alt="" class="img">
                             <div class="text">
-                                <h6 class="price-txt">Hair Cutting & Fitting</h6>
-                                <div class="desc">Clean & simple 30-40 minutes</div>
+                                <h6 class="price-txt">hair dye</h6>
+                                <div class="desc">Clean & simple</div>
                             </div>
                         </div>
-                        <h3 class="price">$20</h3>
+                        <h3 class="price">$120</h3>
+                    </li>
+                    <li  class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                        <img src="images/pricing-3.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">Keratin short hair straightener</h6>
+                                <div class="desc">Clean & simple</div>
+                            </div>
+                        </div>
+                        <h3 class="price">$250</h3>
+                    </li>
+                    <li  class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                        <img src="images/pricing-3.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">Keratin long hair straightener</h6>
+                                <div class="desc">Clean & simple</div>
+                            </div>
+                        </div>
+                        <h3 class="price">$450</h3>
                     </li>
                     <li class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-6.jpg" alt="" class="img">
                             <div class="text">
-                                <h6 class="price-txt">Hair Cutting & Fitting</h6>
-                                <div class="desc">Clean & simple 30-40 minutes</div>
+                                <h6 class="price-txt">full beard dye</h6>
+                                <div class="desc">Clean & simple</div>
                             </div>
                         </div>
-                        <h3 class="price">$20</h3>
+                        <h3 class="price">$60</h3>
+                    </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-6.jpg" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">goatee dye</h6>
+                                <div class="desc">Clean & simple</div>
+                            </div>
+                        </div>
+                        <h3 class="price">$30</h3>
+                    </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-6.jpg" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">multi-colored</h6>
+                                <div class="desc">Clean & simple</div>
+                            </div>
+                        </div>
+                        <h3 class="price">$150</h3>
                     </li>
                 </ul>
                 <ul id="tab-3" class="tabs-content d-flex al-center js-between gap-10">
                     <li  class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-9.webp" alt="" class="img">
                             <div class="text">
-                                <h6 class="price-txt">Hair Cutting & Fitting</h6>
-                                <div class="desc">Clean & simple 30-40 minutes</div>
+                                <h6 class="price-txt">relaxation massage</h6>
+                                <div class="desc">Clean & simple 30-60 minutes</div>
                             </div>
                         </div>
-                        <h3 class="price">$55</h3>
+                        <h3 class="price">$130</h3>
                     </li>
                     <li class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="images/pricing-1.webp" alt="" class="img">
+                            <img src="images/pricing-9.webp" alt="" class="img">
                             <div class="text">
-                                <h6 class="price-txt">Hair Cutting & Fitting</h6>
-                                <div class="desc">Clean & simple 30-40 minutes</div>
+                                <h6 class="price-txt">hot stone massage</h6>
+                                <div class="desc">Clean & simple 30-60 minutes</div>
                             </div>
                         </div>
-                        <h3 class="price">$55</h3>
+                        <h3 class="price">$150</h3>
+                    </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-9.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">hot oil massage</h6>
+                                <div class="desc">Clean & simple 30-60 minutes</div>
+                            </div>
+                        </div>
+                        <h3 class="price">$150</h3>
                     </li>
                 </ul>
                 <ul id="tab-4" class="tabs-content d-flex al-center js-between gap-10">
@@ -273,17 +333,57 @@
                         </div>
                         <h3 class="price">$20</h3>
                     </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-7.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">facial skin exfoliation</h6>
+                                <div class="desc">Clean & simple</div>
+                            </div>
+                        </div>
+                        <h3 class="price">$60</h3>
+                    </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-8.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">Cleaning facial skin                                </h6>
+                                <div class="desc">Clean & simple</div>
+                            </div>
+                        </div>
+                        <h3 class="price">$150</h3>
+                    </li>
                 </ul>
                 <ul id="tab-5" class="tabs-content d-flex al-center js-between gap-10">
                     <li class="tab-price d-flex js-between al-center">
                         <div class="left d-flex al-center gap-20">
-                            <img src="images/pricing-2.webp" alt="" class="img">
+                            <img src="images/pricing-10.webp" alt="" class="img">
                             <div class="text">
-                                <h6 class="price-txt">beard shave</h6>
+                                <h6 class="price-txt">royal steam bath</h6>
                                 <div class="desc">Clean & simple </div>
                             </div>
                         </div>
-                        <h3 class="price">$30</h3>
+                        <h3 class="price">$450</h3>
+                    </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-10.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">Andalusian steam bath</h6>
+                                <div class="desc">Clean & simple </div>
+                            </div>
+                        </div>
+                        <h3 class="price">$150</h3>
+                    </li>
+                    <li class="tab-price d-flex js-between al-center">
+                        <div class="left d-flex al-center gap-20">
+                            <img src="images/pricing-10.webp" alt="" class="img">
+                            <div class="text">
+                                <h6 class="price-txt">herbal steam bath"</h6>
+                                <div class="desc">Clean & simple </div>
+                            </div>
+                        </div>
+                        <h3 class="price">$250</h3>
                     </li>
                 </ul>
             </div>
@@ -297,14 +397,17 @@
         <div class="content">
             <div class="title">LATEST PORTFOLIO GALLERY</div>
             <div class="text d-flex js-between">
-                <p class="paragraph">Sit amet consectetur adipiscing elit sed do eiusmod tempor <br> incididunt labore dolore magna aliqua suspendisse</p>
+                <p class="paragraph">Discover our newest works that exemplify our creativity and craftsmanship.</p>
                 <a href="portfolio.php" class="btn">EXPLORE MORE <i class="fa-solid fa-arrow-right-long arrow"></i></a>
             </div>
-            <div class="images d-flex js-between ">
-                <img src="images/portfolio-1.webp" alt="" class="img">
-                <img src="images/portfolio-2.webp" alt="" class="img">
-                <img src="images/portfolio-3.webp" alt="" class="img">
-                <img src="images/portfolio-4.webp" alt="" class="img">
+            <div class="images d-flex js-between gap-5">
+                <img src="http://localhost/hair-cutting/images/portfolio/portfolio-4.jpg" alt="" class="img">
+                <img src="http://localhost/hair-cutting/images/portfolio/portfolio-1.jpg" alt="" class="img">
+                <img src="http://localhost/hair-cutting/images/portfolio/portfolio-2.jpg" alt="" class="img">
+                <img src="http://localhost/hair-cutting/images/portfolio/portfolio-3.jpg" alt="" class="img">
+                <img src="http://localhost/hair-cutting/images/portfolio/portfolio-14.jpg" alt="" class="img">
+                <img src="http://localhost/hair-cutting/images/portfolio/portfolio-6.jpg" alt="" class="img">
+                <img src="http://localhost/hair-cutting/images/portfolio/portfolio-23.jpg" alt="" class="img">
             </div>
         </div>
     </div>
@@ -315,7 +418,7 @@
         <h2 class="title">
             WHAT OUR CLIENTS SAY?
         </h2>
-        <p class="paragraph">Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt and more labore dolore magna aliqua suspendisse</p>
+        <p class="paragraph">Here’s a glimpse of the experiences and feedback from our valued clients. Their testimonials reflect our commitment to quality, service, and satisfaction, showcasing how we’ve made a positive impact through our work.</p>
         <div class="content">
             <div class="all-card">
                 <div class="card-item">
@@ -326,8 +429,8 @@
                                 <img class="star" src="images/Stars.svg" alt="">
                             </div>
                             <div class="text">
-                                <div class="big-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fugit odio, eveniet illo, quo quis suscipit ut aliquam, magnam esse harum possimus! Sequi ipsa iusto exercitationem quia ex cumque ut!</div>
-                                <div class="small-p">Ama Ampomah</div>
+                                <div class="big-p">Had a haircut here, very clean place. Fast and good service. Marrocan barber.</div>
+                                <div class="small-p">Dieter De Buck</div>
                             </div>
                         </div>
                     </div>
@@ -340,9 +443,9 @@
                                 <img class="star" src="images/Stars.svg" alt="">
                             </div>
                             <div class="text">
-                                <div class="big-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fugit odio, eveniet illo, quo quis suscipit ut aliquam, magnam esse harum possimus! Sequi ipsa iusto exercitationem quia ex cumque ut!</div>
+                                <div class="big-p">A wonderful five-star Moroccan bath, honest and clean, and the specialist has great experience.</div>
                                 <div class="small-p">
-                                    <span class="span">Ama Ampomah</span>
+                                    <span class="span">Hussein Hussein</span>
                                 </div>
                             </div>
                         </div>
@@ -356,9 +459,9 @@
                                 <img class="star" src="images/Stars.svg" alt="">
                             </div>
                             <div class="text">
-                                <div class="big-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fugit odio, eveniet illo, quo quis suscipit ut aliquam, magnam esse harum possimus! Sequi ipsa iusto exercitationem quia ex cumque ut!</div>
+                                <div class="big-p">Mr. Hossam Maghribi, I took a Moroccan bath with him. I recommend everyone to visit them, especially Hossam, if God wills.</div>
                                 <div class="small-p">
-                                    <span class="span">Ama Ampomah</span>
+                                    <span class="span">Abd elQadir Al-Sheikh</span>
                                 </div>
                             </div>
                         </div>
@@ -372,9 +475,9 @@
                                 <img class="star" src="images/Stars.svg" alt="">
                             </div>
                             <div class="text">
-                                <div class="big-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In fugit odio, eveniet illo, quo quis suscipit ut aliquam, magnam esse harum possimus! Sequi ipsa iusto exercitationem quia ex cumque ut!</div>
+                                <div class="big-p">Mashallah, may God bless you. The best Moroccan bath I have ever had. Congratulations to you. May God make you happy.</div>
                                 <div class="small-p">
-                                    <span class="span">Ama Ampomah</span>
+                                    <span class="span">Haithem CHEFRIDI</span>
                                 </div>
                             </div>
                         </div>

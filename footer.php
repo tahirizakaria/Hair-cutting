@@ -8,37 +8,36 @@
                     <p class="p">It is a long established fact that an reader will been distracted by there readable and content.</p>
                     <h5 class="title-tree">Find Us On:</h5>
                     <div class="social-media d-flex gap-20">
-                        <a href="#"><i class="fa-brands fa-facebook-f icon-media"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram icon-media"></i></a>
-                        <a href="#"><i class="fa-brands fa-tiktok icon-media"></i></a>
+                        <a href="https://www.instagram.com/francespa.ksa?igsh=dXZwc3Z6eG9ib3M0" target="_blank"><i class="fa-brands fa-instagram icon-media"></i></a>
+                        <a href="https://www.tiktok.com/@user6068404605986?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fa-brands fa-tiktok icon-media"></i></a>
                     </div>
                 </div>
                 <div class="contact">
                     <h4 class="title">Contact Info</h4>
                     <div class="details">
-                        <div class="location detail d-flex gap-20">
+                        <div class="location detail d-flex al-center gap-20">
                             <i class="fa-solid fa-location-dot"></i>
-                            <p class="p">Obere Haltenstrasse, Lugaggia. Switzerland - 6953</p>
+                            <a href="https://maps.app.goo.gl/8diFDZKJuD4qcU6s6" target="_blank"><p class="p">King Abdullah Rd, Al-Baghdadiyah Al-Gharbiyah, Jeddah 22231, Arabie saoudite</p></a>
                         </div>
-                        <div class="time detail d-flex gap-20">
+                        <div class="time detail d-flex al-center gap-20">
                             <i class="fa-regular fa-clock icon"></i>
-                            <p class="p">Sun - Friday, 08 am - 09 pm</p>
+                            <p class="p">Saturday - Friday, 10:30 AM - 12 AM</p>
                         </div>
-                        <div class="phone detail d-flex gap-20">
-                            <i class="fa-regular fa-clock icon"></i>
-                            <a href="#" class="p">+410 123 456 789</a>
+                        <div class="phone detail d-flex al-center gap-20">
+                            <i class="fa-solid fa-phone icon"></i>
+                            <a href="tel:+966508284430" class="p">(+966)508284430</a>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-footer">
                     <h4 class="title">Photo Gallery</h4>
                     <div class="photos d-flex al-center gap-10">
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
-                        <a href="#"><div class="img"></div></a>
+                        <img src="/images/portfolio/portfolio-1.jpg" alt="" class="img">
+                        <img src="/images/portfolio/portfolio-2.jpg" alt="" class="img">
+                        <img src="/images/portfolio/portfolio-3.jpg" alt="" class="img">
+                        <img src="/images/portfolio/portfolio-14.jpg" alt="" class="img">
+                        <img src="/images/portfolio/portfolio-6.jpg" alt="" class="img">
+                        <img src="/images/portfolio/portfolio-23.jpg" alt="" class="img">
                     </div>
                 </div>
             </div>

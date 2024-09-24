@@ -37,8 +37,8 @@
                 </div>
             </div>
             <div class="top-header-right d-flex al-center gap-20">
-                <a href="https://www.instagram.com/francespa.ksa?igsh=dXZwc3Z6eG9ib3M0"><i class="fa-brands fa-instagram icon-media"></i></a>
-                <a href="https://www.tiktok.com/@user6068404605986?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok icon-media"></i></a>
+                <a href="https://www.instagram.com/francespa.ksa?igsh=dXZwc3Z6eG9ib3M0" target="_blank"><i class="fa-brands fa-instagram icon-media"></i></a>
+                <a href="https://www.tiktok.com/@user6068404605986?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fa-brands fa-tiktok icon-media"></i></a>
             </div>
         </div>
         <!--

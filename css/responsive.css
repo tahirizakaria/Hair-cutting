@@ -95,6 +95,7 @@
         background-position: top;
     }
     .what-do .content .text-content{
+        width: 100%;
         margin-left: calc(var(--pixel) * 15);
     } 
     .what-do .items .item{
@@ -145,6 +146,9 @@
     .gallery .images {
         flex-direction: column;
         gap: calc(var(--pixel) * 15);
+    }
+    .gallery .images .img{
+        width: 100%;
     }
     .reviews .content .card{
         width: 100%;

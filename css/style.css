@@ -1070,6 +1070,9 @@ button{
 .contact-page .cards{
     padding: calc(var(--pixel) * 40) 0;
 }
+.contact-page .cards .info{
+    width: 75%;
+}
 .contact-page .cards .logo{
     height: calc(var(--pixel) * 65);
     width: calc(var(--pixel) * 65);

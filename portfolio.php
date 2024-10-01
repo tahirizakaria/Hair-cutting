@@ -18,15 +18,30 @@
         <div class="content">
             <div class="text">
                 <div class="title">LATEST PORTFOLIO GALLERY</div>
-                <p class="p">Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse</p>    
+                <p class="p">Explore our latest portfolio, where innovation meets artistry in hair cutting. Each project represents our commitment to excellence, showcasing a diverse array of styles and techniques tailored to meet our clients' unique needs.</p>    
             </div>
             <div class="images d-flex js-between al-center">
-                <div class="img-1 img"></div>
-                <div class="img-2 img"></div>
-                <div class="img-3 img"></div>
-                <div class="img-5 img"></div>
-                <div class="img-4 img"></div>
-                <div class="img-6 img"></div>
+                <img src="/images/portfolio/portfolio-1.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-2.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-3.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-14.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-6.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-19.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-15.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-13.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-4.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-23.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-5.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-7.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-8.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-10.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-11.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-18.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-16.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-17.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-12.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-21.jpg" alt="" class="img">
+                <img src="/images/portfolio/portfolio-22.jpg" alt="" class="img">
             </div>
         </div>
     </div>

@@ -18,7 +18,7 @@
         <div class="content">
             <div class="text">
                 <div class="title">GET IN TOUCH</div>
-                <p class="p">Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse</p>    
+                <p class="p">Contact us here for any questions or support. You can find our information below, including our address and a map for directions. We look forward to hearing from you!</p>    
             </div>
             <div class="contact-details">
                 <div class="cards d-flex js-between al-center">
@@ -26,24 +26,21 @@
                         <div class="logo"><i class="fa-solid fa-phone"></i></div>
                         <div class="info">
                             <h4 class="name">Phone:</h4>
-                            <a href="#" class="des">+410 123 456 789</a> <br>
-                            <a href="#" class="des">+410 123 456 789</a>
+                            <a class="des" href="tel:+966508284430" class="p">(+966)508284430</a>
                         </div>
                     </div>
                     <div class="box phone d-flex al-center gap-30">
                         <div class="logo"><i class="fa-solid fa-location-dot"></i></div>
                         <div class="info">
                             <h4 class="name">Address:</h4>
-                            <p class="des">Haltenstrase, Lugaggia.</p> <br>
-                            <p class="des">Switzerland - 6953</p>
+                            <a class="des" href="https://maps.app.goo.gl/8diFDZKJuD4qcU6s6" target="_blank">King Abdullah Rd, Al-Baghdadiyah Al-Gharbiyah</a>
                         </div>
                     </div>
                     <div class="box phone d-flex al-center gap-30">
                         <div class="logo"><i class="fa-regular fa-envelope"></i></div>
                         <div class="info">
                             <h4 class="name">Email:</h4>
-                            <a href="#" class="des">no@themedraft.com</a> <br>
-                            <a href="#" class="des">no@themedraft.com</a>
+                            <a href="#" class="des">contact.francespa.net</a>
                         </div>
                     </div>
                 </div>

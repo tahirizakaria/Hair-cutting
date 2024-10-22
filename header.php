@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+
+<div class="whatsapp"><a href="https://wa.me/+966508284430" class="float bounce"><i class="fa-brands fa-whatsapp my-float"></i></a></div>
 <!--Start header-->
 
 <header class="header">
@@ -28,7 +30,7 @@
                 <div class="call d-flex al-center gap-10">
                     <i class="fa-solid fa-phone icon"></i>
                     <div class="name">Call Us:</div>
-                    <a href="tel:+966508284430" class="num-date">(+966)508284430</a>
+                    <a href="tel:+966531832286" class="num-date">(+966)531832286</a>
                 </div>
                 <div class="time d-flex al-center gap-10">
                     <i class="fa-regular fa-clock icon"></i>
@@ -37,15 +39,15 @@
                 </div>
             </div>
             <div class="top-header-right d-flex al-center gap-20">
-                <a href="https://www.instagram.com/francespa.ksa?igsh=dXZwc3Z6eG9ib3M0" target="_blank"><i class="fa-brands fa-instagram icon-media"></i></a>
-                <a href="https://www.tiktok.com/@user6068404605986?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fa-brands fa-tiktok icon-media"></i></a>
+                <a href="https://www.instagram.com/francespa.sa?igsh=cWg1d3ZlNGlmdWJv" target="_blank"><i class="fa-brands fa-instagram icon-media"></i></a>
+                <a href="https://www.tiktok.com/@france.spa?_t=8qfdQ4WAMAU&_r=1" target="_blank"><i class="fa-brands fa-tiktok icon-media"></i></a>
             </div>
         </div>
         <!--
             buttom header
                             -->
         <div class="btm-header d-flex js-between al-center">
-            <div class="logo"><a href="index.php">France Spa</a></div>
+            <div class="logo"><a href="index.php"><img src="/images/name-logo.png" alt=""></a></div>
             <div class="ul d-flex al-center gap-20">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>

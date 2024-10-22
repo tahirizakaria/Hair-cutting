@@ -8,8 +8,8 @@
                     <p class="p">It is a long established fact that an reader will been distracted by there readable and content.</p>
                     <h5 class="title-tree">Find Us On:</h5>
                     <div class="social-media d-flex gap-20">
-                        <a href="https://www.instagram.com/francespa.ksa?igsh=dXZwc3Z6eG9ib3M0" target="_blank"><i class="fa-brands fa-instagram icon-media"></i></a>
-                        <a href="https://www.tiktok.com/@user6068404605986?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fa-brands fa-tiktok icon-media"></i></a>
+                        <a href="https://www.instagram.com/francespa.sa?igsh=cWg1d3ZlNGlmdWJv" target="_blank"><i class="fa-brands fa-instagram icon-media"></i></a>
+                        <a href="https://www.tiktok.com/@france.spa?_t=8qfdQ4WAMAU&_r=1" target="_blank"><i class="fa-brands fa-tiktok icon-media"></i></a>
                     </div>
                 </div>
                 <div class="contact">
@@ -25,7 +25,7 @@
                         </div>
                         <div class="phone detail d-flex al-center gap-20">
                             <i class="fa-solid fa-phone icon"></i>
-                            <a href="tel:+966508284430" class="p">(+966)508284430</a>
+                            <a href="tel:+966531832286" class="p">(+966)531832286</a>
                         </div>
                     </div>
                 </div>

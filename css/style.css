@@ -69,6 +69,45 @@ button{
 .gap-50{
     gap: calc(var(--pixel) * 50) ;
 }
+/**====== whatsapp  =====*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-12px);
+    }
+}
 /**====== Start header =====*/
 .header {
     position: relative;
@@ -112,6 +151,9 @@ button{
 }
 .top-header .top-header-right .icon-media:hover{
     color: var(--primary);
+}
+.btm-header .logo img{
+    height: calc(var(--pixel) * 60);
 }
 /* buttom header */
 .btm-header{

@@ -26,7 +26,7 @@
                         <div class="logo"><i class="fa-solid fa-phone"></i></div>
                         <div class="info">
                             <h4 class="name">Phone:</h4>
-                            <a class="des" href="tel:+966508284430" class="p">(+966)508284430</a>
+                            <a href="tel:+966531832286" class="num-date">(+966)531832286</a>
                         </div>
                     </div>
                     <div class="box phone d-flex al-center gap-30">

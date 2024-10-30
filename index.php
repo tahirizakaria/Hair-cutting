@@ -1,4 +1,5 @@
 <?php include_once('header.php'); ?>
+<?php require_once 'languages/lang.php'; ?>
 <!--Start banner-->
 <div class="banner-section slider-banner">
     <div class="banner">

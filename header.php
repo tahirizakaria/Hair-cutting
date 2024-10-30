@@ -1,3 +1,4 @@
+<?php require_once 'languages/lang.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,20 +46,26 @@
         </div>
         <!--
             buttom header
-                            -->
+            -->
         <div class="btm-header d-flex js-between al-center">
             <div class="logo"><a href="index.php"><img src="/images/name-logo.png" alt=""></a></div>
             <div class="ul d-flex al-center gap-20">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="services.php">Services</a></li>
-                <li><a href="portfolio.php">Portfolio</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="index.php"><?= _first('Home') ?></a></li>
+                <li><a href="about.php"><?= _first('About Us') ?></a></li>
+                <li><a href="services.php"><?= _first('Services') ?></a></li>
+                <li><a href="portfolio.php"><?= _first('Portfolio') ?></a></li>
+                <li><a href="contact.php"><?= _first('Contact Us') ?></a></li>
             </div>
-            <div class="contact-btn"><a href="contact.php">CONTACT US <i class="fa-solid fa-arrow-right"></i></a></div>
-            <div class="bars-menu">
-                <i class="fa-solid fa-bars open-menu"></i>
-                <i class="fa-solid fa-xmark close-menu"></i>
+            <div class="btn-lang d-flex al-center gap-20">
+                <ul class="languages d-flex al-center gap-10">
+                    <li><a href="<?= $current_page ?>?lang=en">En</a></li>
+                    <li><a href="<?= $current_page ?>?lang=ar">Ar</a></li>
+                </ul>
+                <div class="contact-btn"><a href="contact.php">CONTACT US <i class="fa-solid fa-arrow-right"></i></a></div>
+                <div class="bars-menu">
+                    <i class="fa-solid fa-bars open-menu"></i>
+                    <i class="fa-solid fa-xmark close-menu"></i>
+                </div>
             </div>
         </div>
     </div>

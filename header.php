@@ -30,13 +30,13 @@
             <div class="top-header-left d-flex al-center gap-30">
                 <div class="call d-flex al-center gap-10">
                     <i class="fa-solid fa-phone icon"></i>
-                    <div class="name">Call Us:</div>
-                    <a href="tel:+966531832286" class="num-date">(+966)531832286</a>
+                    <div class="name"><?= _first('Call Us:') ?></div>
+                    <a href="tel:+966508284430" class="num-date">(+966)508284430</a>
                 </div>
                 <div class="time d-flex al-center gap-10">
                     <i class="fa-regular fa-clock icon"></i>
-                    <div class="name">Opening Hour:</div>
-                    <div class="num-date"><span>Saturday - Friday,</span> 10:30 AM - 12 AM </div>
+                    <div class="name"><?= _first('Opening Hours:') ?></div>
+                    <div class="num-date"><span><?= _first('Saturday - Friday,') ?></span> 10:30 AM - 12 AM </div>
                 </div>
             </div>
             <div class="top-header-right d-flex al-center gap-20">
@@ -58,10 +58,10 @@
             </div>
             <div class="btn-lang d-flex al-center gap-20">
                 <ul class="languages d-flex al-center gap-10">
-                    <li><a href="<?= $current_page ?>?lang=en">En</a></li>
-                    <li><a href="<?= $current_page ?>?lang=ar">Ar</a></li>
+                    <li><a href="<?= $current_page ?>?lang=en"><?= _first('En') ?></a></li>
+                    <li><a href="<?= $current_page ?>?lang=ar"><?= _first('Ar') ?></a></li>
                 </ul>
-                <div class="contact-btn"><a href="contact.php">CONTACT US <i class="fa-solid fa-arrow-right"></i></a></div>
+                <div class="contact-btn"><a href="contact.php"><?= _first('CONTACT US') ?><i class="fa-solid fa-arrow-right"></i></a></div>
                 <div class="bars-menu">
                     <i class="fa-solid fa-bars open-menu"></i>
                     <i class="fa-solid fa-xmark close-menu"></i>

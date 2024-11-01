@@ -8,7 +8,7 @@
                 <div class="text">
                     <h2 class="h1"><?= _first('Barbers & Spa Services') ?></h2>
                     <p><?= _first('Professional grooming services, including precision haircuts, styling, and relaxing spa treatments to help you look and feel your best.') ?></p>
-                    <div class="btn"><?= _first('Our Services') ?> <i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="btn"><?= _first('Our Services') ?><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left' : 'fa-solid fa-arrow-right'; ?>"></i></div>
                 </div>
                 <a href="/images/banner-video.mp4" class="circle">
                     <i class="fa-solid fa-play"></i>
@@ -22,7 +22,7 @@
                 <div class="text">
                     <h2 class="h1"><?= _first('Barbers & Spa Services') ?></h2>
                     <p><?= _first('Experience top-notch grooming with expert barbers, stylish cuts, and rejuvenating spa services for a fresh and polished look.') ?></p>
-                    <div class="btn"><?= _first('Our Services') ?> <i class="fa-solid fa-arrow-right"></i></div>
+                    <div class="btn"><?= _first('Our Services') ?><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left' : 'fa-solid fa-arrow-right'; ?>"></i></div>
                 </div>
                 <a href="/images/banner-video.mp4" class="circle">
                     <i class="fa-solid fa-play"></i>
@@ -109,37 +109,37 @@
                     <img src="/images/wwd-cut.png" alt="" class="icon">
                     <h3 class="title-item"><?= _first('Hair Cutting Style') ?></h3>
                     <p class="desciption-item"><?= _first('A professional haircut tailored to your style for an elegant and refreshing look.') ?></p>
-                    <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
+                    <a href="#"><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left-long arrow' : 'fa-solid fa-arrow-right-long arrow'; ?>"></i></a>
                 </div>
                 <div class="item">
                     <img src="/images/hair-washing.png" alt="" class="icon">
                     <h3 class="title-item"><?= _first('Hair Washing') ?></h3>
                     <p class="desciption-item"><?= _first('Enjoy a hair wash that cleanses and refreshes your hair. A relaxing experience that leaves your hair soft and radiant.') ?></p>
-                    <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
+                    <a href="#"><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left-long arrow' : 'fa-solid fa-arrow-right-long arrow'; ?>"></i></a>
                 </div>
                 <div class="item">
                     <img src="/images/wwd-spa.png" alt="" class="icon">
                     <h3 class="title-item"><?= _first('Body Treatments') ?></h3>
                     <p class="desciption-item"><?= _first('Luxurious body treatments designed to enhance your skin\'s appearance and radiance.') ?></p>
-                    <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
+                    <a href="#"><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left-long arrow' : 'fa-solid fa-arrow-right-long arrow'; ?>"></i></a>
                 </div>
                 <div class="item">
                     <img src="/images/beauty.png" alt="" class="icon">
                     <h3 class="title-item"><?= _first('Beauty & Spa') ?></h3>
                     <p class="desciption-item"><?= _first('Professional spa services designed to enhance your wellness and relaxation.') ?></p>
-                    <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
+                    <a href="#"><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left-long arrow' : 'fa-solid fa-arrow-right-long arrow'; ?>"></i></a>
                 </div>
                 <div class="item">
                     <img src="/images/wwd-style.png" alt="" class="icon">
                     <h3 class="title-item"><?= _first('Stylist Shaving') ?></h3>
                     <p class="desciption-item"><?= _first('Experience expert shaving services designed for a clean and polished look. Our skilled barbers ensure precision and style for every client.') ?></p>
-                    <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
+                    <a href="#"><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left-long arrow' : 'fa-solid fa-arrow-right-long arrow'; ?>"></i></a>
                 </div>
                 <div class="item">
                     <img src="/images/hair-color.png" alt="" class="icon">
                     <h3 class="title-item"><?= _first('Multi Hair Colors') ?></h3>
                     <p class="desciption-item"><?= _first('Achieve a new look with our multi hair color services, featuring vibrant shades and professional results that reflect your style.') ?></p>
-                    <a href="#"><i class="fa-solid fa-arrow-right-long arrow"></i></a>
+                    <a href="#"><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left-long arrow' : 'fa-solid fa-arrow-right-long arrow'; ?>"></i></a>
                 </div>
             </div>
         </div>
@@ -400,7 +400,7 @@
             <div class="title"><?= _first('LATEST PORTFOLIO GALLERY') ?></div>
             <div class="text d-flex js-between">
                 <p class="paragraph"><?= _first('Discover our newest works that exemplify our creativity and craftsmanship.') ?></p>
-                <a href="portfolio.php" class="btn"><?= _first('EXPLORE MORE') ?> <i class="fa-solid fa-arrow-right-long arrow"></i></a>
+                <a href="portfolio.php" class="btn"><?= _first('EXPLORE MORE') ?> <i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left-long arrow' : 'fa-solid fa-arrow-right-long arrow'; ?>"></i></a>
             </div>
             <div class="images d-flex js-between gap-5">
                 <img src="/images/portfolio/portfolio-4.jpg" alt="" class="img">

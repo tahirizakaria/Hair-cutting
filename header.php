@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<div class="whatsapp"><a href="https://wa.me/+966508284430" class="float bounce"><i class="fa-brands fa-whatsapp my-float"></i></a></div>
+<div class="whatsapp"><a href="https://wa.me/+966531832286" class="float bounce"><i class="fa-brands fa-whatsapp my-float"></i></a></div>
 <!--Start header-->
 
 <header class="header">
@@ -31,7 +31,7 @@
                 <div class="call d-flex al-center gap-10">
                     <i class="fa-solid fa-phone icon"></i>
                     <div class="name"><?= _first('Call Us:') ?></div>
-                    <a href="tel:+966508284430" class="num-date">(+966)508284430</a>
+                    <a href="tel:+966531832286" class="num-date">(+966)531832286</a>
                 </div>
                 <div class="time d-flex al-center gap-10">
                     <i class="fa-regular fa-clock icon"></i>
@@ -41,7 +41,7 @@
             </div>
             <div class="top-header-right d-flex al-center gap-20">
                 <a href="https://www.instagram.com/francespa.sa?igsh=cWg1d3ZlNGlmdWJv" target="_blank"><i class="fa-brands fa-instagram icon-media"></i></a>
-                <a href="https://www.tiktok.com/@france.spa?_t=8qfdQ4WAMAU&_r=1" target="_blank"><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left' : 'fa-solid fa-arrow-right'; ?>"></i></a>
+                <a href="https://www.tiktok.com/@france.spa?_t=8qfdQ4WAMAU&_r=1" target="_blank"><i class="fa-brands fa-tiktok icon-media"></i></a>
             </div>
         </div>
         <!--
@@ -61,7 +61,7 @@
                     <li><a href="<?= $current_page ?>?lang=en"><?= _first('En') ?></a></li>
                     <li><a href="<?= $current_page ?>?lang=ar"><?= _first('Ar') ?></a></li>
                 </ul>
-                <div class="contact-btn"><a href="contact.php"><?= _first('CONTACT US') ?><i class="fa-solid fa-arrow-right"></i></a></div>
+                <div class="contact-btn"><a href="contact.php"><?= _first('CONTACT US') ?><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left' : 'fa-solid fa-arrow-right'; ?>"></i></a></div>
                 <div class="bars-menu">
                     <i class="fa-solid fa-bars open-menu"></i>
                     <i class="fa-solid fa-xmark close-menu"></i>

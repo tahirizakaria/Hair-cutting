@@ -2,31 +2,35 @@
 <?php require_once 'languages/lang.php'; ?>
 <!--Start banner-->
 <div class="banner-section slider-banner">
-    <div class="banner">
-        <div class="container">
-            <div class="content d-flex js-between al-center">
-                <div class="text">
-                    <h2 class="h1"><?= _first('Barbers & Spa Services') ?></h2>
-                    <p><?= _first('Professional grooming services, including precision haircuts, styling, and relaxing spa treatments to help you look and feel your best.') ?></p>
-                    <div class="btn"><?= _first('Our Services') ?><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left' : 'fa-solid fa-arrow-right'; ?>"></i></div>
+    <div class="slide">
+        <div class="banner">
+            <div class="container">
+                <div class="content d-flex js-between al-center">
+                    <div class="text">
+                        <h2 class="h1"><?= _first('Barbers & Spa Services') ?></h2>
+                        <p><?= _first('Professional grooming services, including precision haircuts, styling, and relaxing spa treatments to help you look and feel your best.') ?></p>
+                        <div class="btn"><?= _first('Our Services') ?><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left' : 'fa-solid fa-arrow-right'; ?>"></i></div>
+                    </div>
+                    <a href="/images/banner-video.mp4" class="circle">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
                 </div>
-                <a href="/images/banner-video.mp4" class="circle">
-                    <i class="fa-solid fa-play"></i>
-                </a>
             </div>
         </div>
     </div>
-    <div class="banner">
-        <div class="container">
-            <div class="content d-flex js-between al-center">
-                <div class="text">
-                    <h2 class="h1"><?= _first('Barbers & Spa Services') ?></h2>
-                    <p><?= _first('Experience top-notch grooming with expert barbers, stylish cuts, and rejuvenating spa services for a fresh and polished look.') ?></p>
-                    <div class="btn"><?= _first('Our Services') ?><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left' : 'fa-solid fa-arrow-right'; ?>"></i></div>
+    <div class="slide">
+        <div class="banner">
+            <div class="container">
+                <div class="content d-flex js-between al-center">
+                    <div class="text">
+                        <h2 class="h1"><?= _first('Barbers & Spa Services') ?></h2>
+                        <p><?= _first('Experience top-notch grooming with expert barbers, stylish cuts, and rejuvenating spa services for a fresh and polished look.') ?></p>
+                        <div class="btn"><?= _first('Our Services') ?><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left' : 'fa-solid fa-arrow-right'; ?>"></i></div>
+                    </div>
+                    <a href="/images/banner-video.mp4" class="circle">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
                 </div>
-                <a href="/images/banner-video.mp4" class="circle">
-                    <i class="fa-solid fa-play"></i>
-                </a>
             </div>
         </div>
     </div>
@@ -131,7 +135,7 @@
                 </div>
                 <div class="item">
                     <img src="/images/wwd-style.png" alt="" class="icon">
-                    <h3 class="title-item"><?= _first('Stylist Shaving') ?></h3>
+                    <h3 class="title-item"><?= _first('Custom haircut') ?></h3>
                     <p class="desciption-item"><?= _first('Experience expert shaving services designed for a clean and polished look. Our skilled barbers ensure precision and style for every client.') ?></p>
                     <a href="#"><i class="<?php echo $_SESSION["lang"] === 'ar' ? 'fa-solid fa-arrow-left-long arrow' : 'fa-solid fa-arrow-right-long arrow'; ?>"></i></a>
                 </div>

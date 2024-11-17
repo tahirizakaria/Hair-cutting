@@ -1,3 +1,57 @@
 body{
     direction: rtl;
 }
+.slick-slider .slick-track, .slick-slider .slick-list {
+    direction: ltr;
+}
+/* whatsapp */
+.float{
+    left: calc(var(--pixel)* 40);
+    right: unset;
+}
+/* banner */
+.banner .content {
+    flex-direction: row-reverse;
+}
+.banner .content .text{
+    text-align: right;
+}
+.btm-header .contact-btn i {
+    margin-right: calc(var(--pixel)* 5);
+}
+.banner .content .btn{
+    flex-direction: row-reverse;
+    gap: calc(var(--pixel)* 5);
+}
+.banner .content i{
+    margin-left: 0;
+    transform: rotate(180deg);
+}
+/* services */
+.services .item a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* gallery */
+.gallery .content .text i{
+    margin-right: calc(var(--pixel)* 5);
+}
+/* contact page*/
+.contact-page .cards .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-page .contact-btn i{
+    margin-right: calc(var(--pixel)* 5);
+}
+.contact-page .contact-form input,
+.contact-page .contact-form select,
+.contact-page .contact-form textarea{
+    text-align: right;
+}
+/* about page */
+.page-about .about .content .about-btn i{
+    margin-right: calc(var(--pixel)* 5);
+}

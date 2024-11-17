@@ -4,33 +4,33 @@
         <div class="content">
             <div class="col d-flex js-between ">
                 <div class="about_us">
-                    <h4 class="title">About Us</h4>
-                    <p class="p">It is a long established fact that an reader will been distracted by there readable and content.</p>
-                    <h5 class="title-tree">Find Us On:</h5>
+                    <h4 class="title"><?= _first('About Us') ?></h4>
+                    <p class="p"><?= _first('It is a long established fact that an reader will been distracted by there readable and content.') ?></p>
+                    <h5 class="title-tree"><?= _first('Find Us On:') ?></h5>
                     <div class="social-media d-flex gap-20">
                         <a href="https://www.instagram.com/francespa.sa?igsh=cWg1d3ZlNGlmdWJv" target="_blank"><i class="fa-brands fa-instagram icon-media"></i></a>
                         <a href="https://www.tiktok.com/@france.spa?_t=8qfdQ4WAMAU&_r=1" target="_blank"><i class="fa-brands fa-tiktok icon-media"></i></a>
                     </div>
                 </div>
                 <div class="contact">
-                    <h4 class="title">Contact Info</h4>
+                    <h4 class="title"><?= _first('Contact Info') ?></h4>
                     <div class="details">
                         <div class="location detail d-flex al-center gap-20">
                             <i class="fa-solid fa-location-dot"></i>
-                            <a href="https://maps.app.goo.gl/8diFDZKJuD4qcU6s6" target="_blank"><p class="p">King Abdullah Rd, Al-Baghdadiyah Al-Gharbiyah, Jeddah 22231, Arabie saoudite</p></a>
+                            <p class="p"><a class="des" href="https://maps.app.goo.gl/8diFDZKJuD4qcU6s6" target="_blank"><?= _first('King Abdullah Rd, Al-Baghdadiyah Al-Gharbiyah, Jeddah 22231, Arabie saoudite') ?></a></p>
                         </div>
                         <div class="time detail d-flex al-center gap-20">
                             <i class="fa-regular fa-clock icon"></i>
-                            <p class="p">Saturday - Friday, 10:30 AM - 12 AM</p>
+                            <p class="p num-date"><span><?= _first('Saturday - Friday,') ?></span> 10:30 AM - 12 AM </p>
                         </div>
                         <div class="phone detail d-flex al-center gap-20">
                             <i class="fa-solid fa-phone icon"></i>
-                            <a href="tel:+966531832286" class="p">(+966)531832286</a>
+                            <a href="tel:+966508284430" class="num-date p">(+966)508284430</a>
                         </div>
                     </div>
                 </div>
                 <div class="gallery-footer">
-                    <h4 class="title">Photo Gallery</h4>
+                <h4 class="title"><?= _first('Photo Gallery') ?></h4>
                     <div class="photos d-flex al-center gap-10">
                         <img src="/images/portfolio/portfolio-1.jpg" alt="" class="img">
                         <img src="/images/portfolio/portfolio-2.jpg" alt="" class="img">

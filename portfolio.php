@@ -5,8 +5,12 @@
         <div class="banner">
             <div class="container">
                 <div class="content d-flex js-between al-center">
-                    <h1 class="title">Portfolio</h1>
-                    <h3 class="second-title"><a class="first" href="index.php">cutting</a> <span>.</span> <a class="seconde" href="#">portfolio</a></h3>
+                    <h1 class="title"><?= _first('Portfolio') ?></h1>
+                    <h3 class="second-title">
+                        <a class="first" href="index.php"><?= _first('cutting') ?></a> 
+                        <span>.</span> 
+                        <a class="seconde" href="#"><?= _first('portfolio') ?></a>
+                    </h3>
                 </div>
             </div>
         </div>
@@ -16,9 +20,9 @@
 <div class="portfolio">
     <div class="container">
         <div class="content">
-            <div class="text">
-                <div class="title">LATEST PORTFOLIO GALLERY</div>
-                <p class="p">Explore our latest portfolio, where innovation meets artistry in hair cutting. Each project represents our commitment to excellence, showcasing a diverse array of styles and techniques tailored to meet our clients' unique needs.</p>    
+             <div class="text">
+                <div class="title"><?= _first('LATEST PORTFOLIO GALLERY') ?></div>
+                <p class="p"><?= _first('Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse') ?></p>    
             </div>
             <div class="images d-flex js-between al-center">
                 <img src="/images/portfolio/portfolio-1.jpg" alt="" class="img">

@@ -71,22 +71,22 @@ button{
 }
 /**====== whatsapp  =====*/
 .float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+	position: fixed;
+    width: calc(var(--pixel)* 100);
+    height: calc(var(--pixel)* 100);
+    bottom: calc(var(--pixel)* 80);
+    right: calc(var(--pixel)* 80);
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: calc(var(--pixel)* 65);
+	box-shadow: calc(var(--pixel) * 2) calc(var(--pixel) * 2) calc(var(--pixel) * 3) #999;
+    z-index:100;
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:calc(var(--pixel) * 16);
 }
 
 .bounce {
@@ -212,6 +212,9 @@ button{
     background-size: cover;
     width: 100%;
 }
+.slick-slide{
+    height: fit-content;
+}
 .banner .content{
     position: relative;
     display: flex;
@@ -268,6 +271,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: calc(var(--pixel) * 100);
 }
 .circle:before,
 .circle:after {
